@@ -1,12 +1,12 @@
 * A table to help set up ram copies of all the linkage data.
-        xdef    ss_list
+	xdef	ss_list
 
-        xref    ss_ext
-        xref    ip_poll,ip_sched
-        xref    sd_sched
-        xref    io_sched
-        xref    od_ser,od_pipe,od_con,od_net
-        xref    dd_mdv
+	xref	ss_ext
+	xref	ip_poll,ip_sched
+	xref	sd_sched
+	xref	io_sched
+	xref	od_ser,od_pipe,od_con,od_net
+	xref	dd_mdv
 
 * It is read from the top, backwards, with a one terminating the list.
 * All the address offset entries will be even.
@@ -25,26 +25,26 @@
 * This is all very custom stuff, and not ammenable to messing about with!
 * the structures finish up built at base = sv_chtop(a6).
 
-        section ss_list
+	section ss_list
 
-        dc.b    0,1             address       will be set up with
-        dc.w    ss_ext+24*2-*   base+$00: 00000000 + 11 addresses + 13 words
-        dc.b    2,11*2-1
-        dc.w    ip_poll-*       base+$50: 00000000 ip_poll
-        dc.b    2,1
-        dc.w    sd_sched-*                                  base+$60 sd_sched
-        dc.w    ip_sched-*      base+$60: base+$68 ip_sched
-        dc.w    io_sched-*                                  00000000 io_scan
-        dc.b    2,1
-        dc.w    od_ser+3*2-*    base+$70: base+$80 od_serio od_serop od_sercl
-        dc.w    od_pipe+3*2-*   base+$80: base+$90 io_serq  od_pipop od_pipcl
-        dc.w    od_con+3*2-*    base+$90: base+$a0 od_conio od_conop od_concl
-        dc.w    od_net+3*2-*    base+$a0: 00000000 od_netio od_netop od_netcl
-        dc.b    1,3*2-1
-        dc.w    dd_mdv+12*2-*   base+$b0: 00000000 dd_mdvio dd_mdvop dd_mdvcl
-*                               base+$c0: md_slave 00000000 00000000 md_formt
-*                               base+$d0: 0 md_end 0 3 m d  v 0 0000 00000000
-*                               base+$e0: end of system extension
+	dc.b	0,1		address       will be set up with
+	dc.w	ss_ext+25*2-*	base+$00: 00000000 + 11 addresses + 14 words
+	dc.b	2,11*2-1
+	dc.w	ip_poll-*	base+$50: 00000000 ip_poll
+	dc.b	2,1
+	dc.w	sd_sched-*				    base+$60 sd_sched
+	dc.w	ip_sched-*	base+$60: base+$68 ip_sched
+	dc.w	io_sched-*				    00000000 io_scan
+	dc.b	2,1
+	dc.w	od_ser+3*2-*	base+$70: base+$80 od_serio od_serop od_sercl
+	dc.w	od_pipe+3*2-*	base+$80: base+$90 io_serq  od_pipop od_pipcl
+	dc.w	od_con+3*2-*	base+$90: base+$a0 od_conio od_conop od_concl
+	dc.w	od_net+3*2-*	base+$a0: 00000000 od_netio od_netop od_netcl
+	dc.b	1,3*2-1
+	dc.w	dd_mdv+13*2-*	base+$b0: 00000000 dd_mdvio dd_mdvop dd_mdvcl
+*				base+$c0: md_slave 00000000 00000000 md_formt
+*				base+$d0: 0 md_end 0 3 m d  v 0 ffff 00000000
+*				base+$e0: end of system extension
 ss_list
 
-        end
+	end
