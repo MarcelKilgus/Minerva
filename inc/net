@@ -1,0 +1,19 @@
+* net data block definition
+        nolist
+
+        offset  $18 (end of basic channel definition)
+net_hedr ; network packet header
+net_dest ds.b   1       destination station number
+net_self ds.b   1       own station number
+net_blkl ds.b   1       data block number (low byte)
+net_blkh ds.b   1       data block number (high byte)
+net_type ds.b   1       send blocks: 0=not eof 1=eof
+net_nbyt ds.b   1       number of bytes sent or received
+net_dchk ds.b   1       data checksum
+net_hchk ds.b   1       header checksum
+net_data ds.b   255     data block
+net_rpnt ds.b   1       running pointer to data block
+net_end ; length of data definition block
+
+        list
+

@@ -1,0 +1,16 @@
+* offsets in basic channel definition block
+        nolist
+
+        offset  0
+ch.id   ds.l    1       channel id
+ch.ccpy ds.w    3       current cursor position, y (float)
+ch.ccpx ds.w    3       current cursor position, x (float)
+ch.angle ds.w   3       turtle angle (float)
+ch.pen  ds.b    1       pen status (up or down)
+        ds.b    9       spare
+ch.chpos ds.w   1       character position on line
+ch.width ds.w   1       width of line in characters
+ch.spare ds.l   1       spare
+ch.lench ; length of a channel definition block
+
+        list

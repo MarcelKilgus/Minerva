@@ -1,0 +1,8 @@
+* ram size definitions
+        nolist
+
+ra_bot  equ     $20000  bottom of ram
+ra_min  equ     $20000  minimum ram size - 128 kbytes
+ra_ssize equ    $8000   screen size
+
+        list

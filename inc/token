@@ -1,0 +1,41 @@
+* equates for tokens
+        nolist
+
+b.w.num setnum  0
+
+b.w.def macro
+b.[.lab] equ $ffffff80![b.w.num]
+m setnum b.[.lab]<<8
+w.[.lab] equ [m]
+ ifnum [.nparms] = 0 goto x
+i setnum 0
+l maclab
+i setnum [i]+1
+ ifstr {[.parm([i])]} = {} goto n
+b.[.parm([i])] equ [i]
+w.[.parm([i])] equ [i]!([m])
+n maclab
+ ifnum [i] < [.nparms] goto l
+x maclab
+b.w.num setnum [b.w.num]+1
+ endm
+
+spc     b.w.def ; lsb is space count
+key     b.w.def end for if rep sel when def proc fn go keyto sub {} err {} {} \
+        rstr next exit else on ret rmndr data dim loc let then step rem mist
+bip     b.w.def ; built-in procedure - not used
+bif     b.w.def ; built-in function - not used
+sym     b.w.def equal colon hash symcom opar cpar obrc cbrc space eol
+ops     b.w.def sum dif mul fdiv ge gt near eq ne le lt bor band bxor exp \
+        join lor land lxor mod idiv instr
+mon     b.w.def neg pos bnot lnot
+syv     b.w.def ; system variable - not used
+nam     b.w.def ; 2nd word is name index
+shi     b.w.def ; lsb is signed integer
+lgi     b.w.def ; 2nd word is signed integer
+str     b.w.def ; 2nd word is length, followed by chars and padded to even
+txt     b.w.def ; as above
+lno     b.w.def ; 2nd word is strictly positive line number
+sep     b.w.def sepcom semi back excl septo
+
+        list

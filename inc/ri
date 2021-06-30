@@ -1,0 +1,69 @@
+* arithmetic interpreter op codes
+        nolist
+
+ri.term equ     $00  0  end of block
+ri.one  equ     $01 -6  constant one
+ri.nint equ     $02 +4  nearest short integer
+ri.zero equ     $03 -6  constant zero
+ri.int  equ     $04 +4  truncate towards negative to give a short integer
+ri.n    equ     $05 -6  plus a signed byte to push fp -128 to 127
+ri.nlint equ    $06 +2  nearest long integer
+ri.k    equ     $07 -6  plus a byte, nibbles give mantissa and adjust exponent
+ri.float equ    $08 -4  float a short integer
+ri.flong equ    $09 -2  float a long integer
+ri.add  equ     $0a +6  nos - tos
+
+ri.sub  equ     $0c +6  nos + tos
+ri.halve equ    $0d  0  tos / 2
+ri.mult  equ    $0e +6  nos * tos
+ri.doubl equ    $0f  0  tos * 2
+ri.div  equ     $10 +6  nos / tos
+ri.recip equ    $11  0  1 / tos
+ri.abs  equ     $12  0  abs(tos)
+ri.roll equ     $13  0  (tos)b, c, a -> (tos)a, b, c (roll 3rd to top)
+ri.neg  equ     $14  0  -tos
+ri.over equ     $15 -6  nos
+ri.dup  equ     $16 -6  tos
+ri.swap equ     $17  0  nos <--> tos
+ri.cos  equ     $18  0  cos(tos)
+
+ri.sin  equ     $1a  0  sin(tos)
+
+ri.tan  equ     $1c  0  tan(tos)
+
+ri.cot  equ     $1e  0  cot(tos)
+
+ri.asin equ     $20  0  arcsin(tos)
+
+ri.acos equ     $22  0  arccos(tos)
+
+ri.atan equ     $24  0  arctan(tos)
+ri.arg  equ     $25 +6  arg(tos,nos) = a, solves tos/nos = k*cos(a)/k*sin(a)
+ri.acot equ     $26  0  arccot(tos)
+ri.mod  equ     $27 +6  sqrt(tos^2 + nos^2)
+ri.sqrt equ     $28  0  sqrt(tos)
+ri.squar equ    $29  0  tos * tos
+ri.ln   equ     $2a  0  ln(tos)
+
+ri.log10 equ    $2c  0  log10(tos)
+
+ri.exp  equ     $2e  0  e ^ tos
+ri.power equ    $2f +2  nos ^ tos, where tos is a signed short integer
+ri.powfp equ    $30 +6  nos ^ tos
+
+ri.maxop equ    $30
+
+ri.load equ     $00     load operand key
+ri.store equ    $01     store operand key (sets bit 0)
+
+* for use after ri.k
+
+ri.pi180 equ    $56
+ri.loge equ     $69
+ri.pi6  equ     $79
+ri.ln2  equ     $88-$100
+ri.sqrt3 equ    $98-$100
+ri.pi   equ     $a8-$100
+ri.pi2  equ     $a7-$100
+
+        list

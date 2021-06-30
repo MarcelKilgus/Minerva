@@ -1,0 +1,44 @@
+; delay for a given number of microseconds - destroys d0
+        nolist
+
+delay   macro   us
+ ifnum [us] < 5 goto us_[us]
+ ifnum [us] < 20 goto rotate
+ ifnum [us] < 311 goto qdbra
+ ifnum [us] < 227195 goto wsubw
+ ifnum [us] < 4177923 goto swap8
+ error A delay of [us]us should use the clock!
+swap8 maclab 0.229 to 4.162 step 0.033 seconds
+ moveq #([us]*15+245720)/491520,d0 eight byte coarse sequence
+ swap d0
+ subq.l #8,d0
+ bcc.s *-2
+ goto us_0
+wsubw maclab 313 to 27193 step 3 us
+ move.w #([us]*15-46)/52,d0 eight byte fine sequence
+ subq.w #1,d0
+ bcc.s *-2
+ goto us_0
+qdbra maclab 21 to 309 step 2 us
+ moveq #([us]*15-50)/36,d0 six byte sequence
+ dbra d0,*
+ goto us_0
+rotate maclab 5 to 19 us inclusive 
+ moveq #([us]*15-38)/4,d0 four byte sequence
+ ror.l d0,d0
+ goto us_0
+us_4 maclab 3.7us (a little under, but single instruction)
+ ror.l #8,d0
+ goto us_0
+us_3 maclab 2.9us
+ ror.l #5,d0
+ goto us_0
+us_2 maclab 1.9us
+ ror.l #2,d0
+ goto us_0
+us_1 maclab 1.1us
+ nop
+us_0 maclab
+ endm
+
+        list

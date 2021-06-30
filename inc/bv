@@ -1,0 +1,111 @@
+* pointers to basic variable lists and stacks
+         nolist
+
+        offset  0
+bv_start ; start of area and pointers
+
+bv_bfbas ds.l   1       buffer base
+bv_bfp  ds.l    1       buffer running pointer
+bv_tkbas ds.l   1       token list
+bv_tkp  ds.l    1
+bv_pfbas ds.l   1       program file
+bv_pfp  ds.l    1
+bv_ntbas ds.l   1       name table
+bv_ntp  ds.l    1
+bv_nlbas ds.l   1       name list
+bv_nlp  ds.l    1
+bv_vvbas ds.l   1       variable values
+bv_vvp  ds.l    1
+bv_chbas ds.l   1       channel table
+bv_chp  ds.l    1
+bv_rtbas ds.l   1       return table
+bv_rtp  ds.l    1
+bv_lnbas ds.l   1       line number table
+bv_lnp  ds.l    1
+bv_chang ; change of direction marker
+bv_btp  ds.l    1       backtrack stack during parsing
+bv_btbas ds.l   1
+bv_tgp  ds.l    1       temporary graph stack during parsing
+bv_tgbas ds.l   1
+bv_rip  ds.l    1       arithmetic stack
+bv_ribas ds.l   1
+bv_ssp  ds.l    1       system stack (real one!)
+bv_ssbas ds.l   1
+bv_endpt equ *-4 last of pointers
+
+bv_linum ds.w   1       current line number
+bv_lengt ds.w   1       current length
+bv_stmnt ds.b   1       current statement on line
+bv_cont ds.b    1       continue ($80) or stop (0) processing
+bv_inlin ds.b   1       in-line clause (1=loop or $ff=other) or not (0)
+bv_sing ds.b    1       single line execution on ($ff) or off (0)
+bv_index ds.w   1       name tab row of last inline loop index read
+bv_vvfre ds.l   1       first free space in vvtable
+bv_sssav ds.l   1       saved sp for out of memory to go back to
+        ds.w    1       spare
+bv_uproc ds.l   1       if sign set, rest is address of user trace procedure
+bv_rand ds.l    1       random number
+bv_comch ds.l   1       command channel
+bv_nxlin ds.w   1       which line number to start after
+bv_nxstm ds.b   1       which statement to start after
+bv_comln ds.b   1       command line save ($ff) or not (0)
+bv_stopn ds.w   1       which stop number set
+bv_edit ds.b    1       program has been edited ($ff) or not (0)
+bv_brk  ds.b    1       there has been a break (0) or not ($80)
+bv_unrvl ds.b   1       need to unravel ($ff) or not (0)
+
+bv_cnstm ds.b   1       statement to continue from
+bv_cnlno ds.w   1       line to continue from
+
+bv_dalno ds.w   1       current data line number
+bv_dastm ds.b   1       current data statement number
+bv_daitm ds.b   1       next data item to read
+
+bv_cnind ds.w   1       inline loop index to continue with
+bv_cninl ds.b   1       inline loop flag for continue
+
+bv_lsany ds.b   1       whether checking list ($ff) or not (0)
+bv_lsbef ds.w   1       invisible top line
+bv_lsbas ds.w   1       bottom line in window
+bv_lsaft ds.w   1       invisible bottom line
+bv_lenln ds.w   1       length of window line
+bv_maxln ds.w   1       max number of window lines
+* Note. the 2 following words will be overwritten on changing lenln and maxln:
+bv_totln ds.w   1       number of window lines so far
+        ds.w    1       spare, but see above
+bv_auto ds.b    1       whether auto/edit on ($ff) or off (0)
+bv_print ds.b   1       print from prtok ($ff) or leave in buffer (0)
+bv_edlin ds.w   1       line number to edit next
+bv_edinc ds.w   1       increment on auto edit range (+ve) or not auto (0)
+
+        ds.l    1       bv_tkpos position of a4 in tklist on entry to proc
+        ds.l    1       bv_ptemp temporary pointer for go_proc
+
+bv_undo ds.b    1       undo rt stack immediately then redo procedure
+bv_arrow ds.b   1       up ($ff), down (1) or no (0) arrow on last line read
+bv_lsfil ds.w   1       fill window when relisting at least to here
+
+bv_wrlno ds.w   1       when error line number
+bv_wrstm ds.b   1       statement
+bv_wrinl ds.b   1       inline ($ff) or not (0)
+bv_wherr ds.b   1       processing ($80) or not (0)
+bv_erstm ds.b   1       last error statement (new, wa spare, we hope)
+bv_error ds.l   1       last error number
+bv_erlin ds.w   1       last error line
+bv_wvnum ds.w   1       number of watched variables
+bv_wvbas ds.l   1       base of wv area wrt vvbas
+
+        ds.w    1       bv_lblen now spare, was used by fastload?
+        ds.l    1       bv_lbuff now spare, ditto
+bv_toe  ds.b    1       turn off enhancements: bit 7 int toks (was bv_filst)
+        ds.b    11      spare
+bv_alchp ds.l   1       TK2 linked common heap allocations
+        ds.l    2       spare
+bv_qlibx ds.l   1       Qliberator stuff
+        ds.l    2       spare
+bv_qliby ds.l   1       qliberator again!
+        ds.l    1       spare
+
+bv_end ; top of bv area
+
+         list

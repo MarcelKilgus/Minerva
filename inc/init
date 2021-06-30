@@ -1,0 +1,129 @@
+* Generate superbasic extensions
+ nolist
+
+* These macros are for the utterly lazy people, like me, who can't be bothered
+* to write all the code for a simple bit of assembler stuff, and usually revert
+* to messing about with "CALL"'s and "PEEK"'s, when it would be infinitely
+* nicer to wrap the code up in a nice extension.
+
+* The main two macros:
+
+b macro w,t
+b[w]n setnum [b[w]n]+1
+b[w]c setnum [b[w]c]+[.len(t)]+1
+b[w][b[w]n] setstr [t]
+b[w][b[w]n] ds.w 0
+[.lab]
+ endm
+
+d macro w
+ local c,n
+n setnum [b[w]n]
+c setnum [b[w]c]>>3
+ ifnum [c] > [n] goto p
+c setnum [n]
+p maclab
+[.lab] dc.w [c]
+ ifnum [n] = 0 goto q
+c setnum 0
+l maclab
+c setnum [c]+1
+ dc.w b[w][c]-*
+ dc.b [.len(b[w][c])],'[.ucase(b[w][c])]'
+ ifnum [c] < [n] goto l
+q maclab
+ dc.w 0
+ endm
+
+* I've included macros "init", "bp", "bf", "bpc" and "tini" as a standard, so
+* you can just start with "init" after your "section" directive and any
+* initialisation code, then wherever you want to define the start of an
+* extension, just say either:
+*       bp procedure_name for a procedure
+* or:
+*       bf function_name for a function
+* Finally, at the end of the program, just put:
+*       tini
+* without even bothering with the "end", as it does it for you!
+* Using "bpc" instead of "tini" doesn't put in the "end", in case you want to
+* have something further after the tables (e.g. "config" data).
+
+* The variable names "bpxxx" are used, where "xxx" is "c", "n" or a number from
+* one to the number of procedures defined, and "bfxxx", where "xxx" is similar
+* for functions. The "bpc", "bpxxx" and "bfxxx" are also employed as labels!
+* Note that you can also put your own label on any of the macro call lines.
+
+init macro
+[.lab] lea bpc,a1
+ move.w $110,a2 bp.init
+ jmp (a2)
+bpn setnum 0
+bpc setnum 7
+bfn setnum 0
+bfc setnum 7
+ endm
+
+bp macro t
+[.lab] b p [t]
+ endm
+
+bf macro t
+[.lab] b f [t]
+ endm
+
+bpc macro
+[.lab] ds.w 0
+bpc d p
+ d f
+ endm
+
+tini macro
+ bpc
+ end
+ endm
+
+* E.g. a complete file for NET and LEN, as standard rom versions, goes like:
+*       section netlen
+*       include "this_file"
+*       init
+*
+* bf len
+*       move.w  $116,a2
+*       bsr.s   gt1
+*       bmi.s   err_bp
+*       add.w   d7,a1
+*       moveq   #1,d1
+*       and.b   d7,d1
+*       add.w   d1,a1
+*       move.w  d7,0(a6,a1.l)
+*       move.l  a1,$58(a6) bv_rip
+*       moveq   #3,d4
+*       rts
+*
+*gt1
+*       jsr     (a2)
+*       move.l  (sp)+,a2
+*       bne.s   rts0
+*       subq.w  #1,d3
+*       bne.s   err_bp
+*       move.w  0(a6,a1.l),d7
+*       jmp     (a2)
+*
+*err_bp
+*       moveq   #-15,d0
+*rts0
+*       rts
+*
+* bp net
+*       move.w  $112,a2
+*       bsr.s   gt1
+*       beq.s   err_bp
+*       cmp.w   #128,d7
+*       bcc.s   err_bp
+*       moveq   #0,d0 mt.inf
+*       trap    #1
+*       move.b  d7,$37(a0) sv_netnr
+*       rts
+*
+*       tini
+ list

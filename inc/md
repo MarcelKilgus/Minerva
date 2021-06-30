@@ -1,0 +1,32 @@
+* microdrive physical layer definition
+        nolist
+
+        offset  $10
+md_drivr ds.l   1       pointer to driver
+md_drivn ds.b   1       drive number
+        ds.b    1       spare
+md_mname ds.w   1+10/2  length prefixed medium name and check number
+md_files ds.b   1       number of files open
+md_estat ds.b   1       error status 0=ok -1=bad
+md_fail ds.b    1       failure count
+        ds.b    3       spare
+md_map  ds.w    255     microdrive map (fe bad, fd vac, fc pending delete)
+md_lsect ds.w   1       last sector allocated.
+md_pendg ds.w   256     pending operations: 0 no, >0 slave block nr
+                                        ;   -1 write map, -2 verify map
+md_end
+
+* directory structure definitions
+
+        offset  0
+md_delen ds.l   1       length
+md_deacs ds.b   1       access key
+md_detyp ds.b   1       type
+md_deinf ds.l   2       information (data space first)
+md_denam ds.w   1+36/2  length prefixed file name
+md_deupd ds.l   1       update date
+         ds.w   2       unit and version
+md_debkd ds.l   1       backup date
+md_deend
+
+        list

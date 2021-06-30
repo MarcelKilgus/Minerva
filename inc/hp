@@ -1,0 +1,14 @@
+* common heap header definition
+        nolist
+
+        offset  0
+hp_len  ds.l    1       length of definition block
+hp_next ; pointer to next free space
+hp_drivr ds.l   1       driver to free block when owner is deleted (-ch_close)
+hp_owner ds.l   1       owner job (0 if free space)
+hp_rflag ds.l   1       address to be set when space released
+hp_end
+
+hp_close equ    12      offset of close entry point wrt driver add
+
+        list

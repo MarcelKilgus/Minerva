@@ -1,0 +1,11 @@
+* master chip registers
+        nolist
+
+mc_stat equ     $18063  status register address
+*               bit     clear   set
+mc..blnk equ    1       normal  blank   if set, the rest are irrelevant!
+mc..m256 equ    3       512/4   256/8   pixels per line / colours per pixel
+mc..ntsc equ    6       PAL625  NTSC495 scan lines (512/384 displayed)
+mc..scrn equ    7       $20000  $28000  screen base address (scr0/scr1)
+
+        list

@@ -1,0 +1,25 @@
+* job header and save area definitions
+        nolist
+
+        offset  0
+jb_len  ds.l    1       length of job segment
+jb_start ds.l   1       start address
+jb_owner ds.l   1       owner of this job
+jb_hold ds.l    1       ptr to byte to be clr when job released
+jb_tag  ds.w    1       tag for this job
+jb_prior ds.b   1       current accumulated priority
+jb_princ ds.b   1       priority increment, if =0 job inactive
+jb_stat ds.w    1       job status:
+*               0 potentially active, >0 delay time (frames), <0 suspended
+jb_rela6 ds.b   1       bit 7: next trap #2/3 is rel a6, bit 6: interpreter
+jb_wflag ds.b   1       set if there is a job waiting on completion
+jb_wjob ds.l    1       job id of waiting job
+jb_trapv ds.l   1       pointer to trap redirection vectors
+jb_d0   ds.l    8       saved d0-d7
+jb_a0   ds.l    8       saved a0-a7
+jb_sr   ds.w    1       saved sr
+jb_pc   ds.l    1       saved pc
+        ds.w    1       spare
+jb_end
+
+        list

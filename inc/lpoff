@@ -1,0 +1,17 @@
+* offsets within loop index decription
+        nolist
+
+        offset  0
+lp.iexp ds.w    3       index (max 4 byte string, fp or integer)
+lp.lnvar ; length of a simple variable
+lp.sl   ds.w    1       start line
+lp.el   ds.w    1       end line
+lp.ss   ds.b    1       statement on start line
+lp.es   ds.b    1       statement on end line
+lp.lnrep ; length of a rep description
+lp.eexp ds.w    3       endval (max 4 byte string, fp or integer)
+lp.sexp ds.w    3       step (max 4 byte string, fp or integer)
+lp.chpos ds.w   1       character position along line (word)
+lp.lnfor ; length of a for description
+
+        list

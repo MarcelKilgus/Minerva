@@ -1,0 +1,35 @@
+* return stack pointers
+        nolist
+
+        offset  0
+rt.svba ds.l    1       base of args
+rt.svbl ds.l    1       base of locals
+rt.svtl ds.l    1       top of locals
+rt.svdfl ds.w   1       def line number
+rt.svfnt ds.b   1       function type
+rt.svswp ds.b   1       args swapped ($ff) or not (0)
+rt.lenpr ; length of pr/fn bits
+
+* add rt.lenpr to next four if total wanted from base
+
+        offset  0
+rt.svrtt ds.b   1       return type - 0 gosub, 1 proc, other fn
+rt.svstm ds.b   1       statement to return to
+rt.svlno ds.w   1       line number to return to
+rt.svsta ds.l   1       status flags - inlin, sing, index
+rt.lentl equ    *+rt.lenpr total length
+
+* restoring wants offsets working downwards
+
+rt.rsba equ     rt.lentl-rt.svba
+rt.rsbl equ     rt.lentl-rt.svbl
+rt.rstl equ     rt.lentl-rt.svtl
+rt.rsdfl equ    rt.lentl-rt.svdfl
+rt.rsfnt equ    rt.lentl-rt.svfnt
+rt.rsswp equ    rt.lentl-rt.svswp
+rt.rsrtt equ    rt.lentl-rt.lenpr-rt.svrtt
+rt.rsstm equ    rt.lentl-rt.lenpr-rt.svstm
+rt.rslno equ    rt.lentl-rt.lenpr-rt.svlno
+rt.rssta equ    rt.lentl-rt.lenpr-rt.svsta
+
+        list

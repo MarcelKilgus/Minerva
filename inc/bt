@@ -1,0 +1,36 @@
+* memory block table definitions
+        nolist
+
+* memory block table entries
+
+        offset  0
+bt_stat ds.b    1       drive id / status byte - see below
+bt_prior ds.b   1       block priority
+bt_sectr ds.w   1       sector number (microdrive*2)
+bt_filnr ds.w   1       file number (microdrive)   } logical
+bt_block ds.w   1       block number (microdrive)  } location
+bt_end
+
+* bits of status codes
+
+bt..file equ    0       set if a file block
+bt..accs equ    1       set if contents may be accessed
+bt..wreq equ    2       set if block required to be written
+bt..rdvr equ    3       set if block required to be read / verified
+
+* The most significant 4 bits of the status byte contain the pointer to the
+* physical device block sv_fsdef, the least significant are the status codes:
+
+bt.unav equ     0                       unavailable to file system
+bt.empty equ    1<<bt..file             empty
+bt.rreq equ     bt.empty!1<<bt..rdvr    required to be read
+bt.true equ     bt.empty!1<<bt..accs    true representation of file
+bt.aver equ     bt.true!1<<bt..rdvr     awaiting verify
+bt.updt equ     bt.true!1<<bt..wreq     updated
+
+* status code masks
+
+bt.actn equ     1<<bt..rdvr!1<<bt..wreq check for read or write request
+bt.inuse equ    bt.actn!1<<bt..accs     check if a file block in use
+
+        list

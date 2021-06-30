@@ -1,0 +1,13 @@
+* Macro for defining vector entry points that are offset by $4000
+        nolist
+vect4000 macro
+i setnum 0
+l maclab
+i setnum [i]+1
+h setstr [.parm([i])]
+o setstr [.left(h,2)]$[.right(h,[.len(h)]-3)]
+        xdef    [o]
+[o]     equ     [h]-$4000
+ ifnum [i] < [.nparms] goto l
+ endm
+        list

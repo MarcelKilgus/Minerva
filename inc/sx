@@ -1,0 +1,52 @@
+* system variables extension
+        nolist
+
+        offset  0
+sx_case ds.l    1       non-zero = user rtn on ctrl/alt/shift/enter (c/a/s/e?)
+sx_itran ds.l   1       input tranlation routine
+sx_otran ds.l   1       output translation routine
+sx_driv ds.l    1       mm_rechp is memory management driver, close entry point
+
+sx_kbenc ds.l   1       keyboard encoder routine
+sx_ipcom ds.l   1       linked list to front end mt.ipcom calls
+        ds.l    1       spare/reserved (routine/table)
+        ds.l    1       spare/reserved (routine/table)
+
+sx_trn  ds.l    1       default i/o translation table address
+sx_msg  ds.l    1       default message table address
+sx_f0   ds.l    1       default primary font
+sx_f1   ds.l    1       default secondary font
+
+sx_dspm ds.b    1       real display mode settings (dual screen)
+sx_toe  ds.b    1       turn off ehancements:
+                ; bit 7 set, allow format + files open
+                ; bit 1 set, treat -ve mt.baud as error (non-hermes)
+sx_event ds.b   1       events: bit 4 = ctrl/space, 5=+alt, 6=+shift, 7=+both
+sx_fstat ds.b   1       cursor flash rate, size and colour rrrrsccc
+sx_kbste ds.b   12      special key remap table
+
+sx_qdos ds.l    1       returned by mt.inf, ver$(-2)
+sx_basic ds.w   1+4/2   length prefixed string returned by ver$, ver$(0)
+
+        ds.w    2       spare/reserved
+        ds.b    1       21kxs10w   21: ser21 data pend, k: key held, x: shift
+                        ; change while key held, s: sound in progress, 1: 1,
+                        ; 0: zero Hermes, old IPC showed ser being zapped,
+                        ; w: p26 (write protect) (experimental byte!)
+        ds.b    1       spare/reserved
+
+* initial ram based linkages
+        ds.l    2       0 ip_poll
+        ds.l    6       base+$60 sd_sched base+$68 ip_sched 0 io_scan
+        ds.l    4       base+$80 od_serio od_serop od_sercl
+sx_pipb ds.l    4       base+$90 io_serq  od_pipop od_pipcl
+sx_con  ds.l    4       base+$a0 od_conio od_conop od_concl
+        ds.l    4       0 od_netio od_netop od_netcl
+        ds.l    8       0 dd_mdvio dd_mdvop dd_mdvcl md_slave 0 0 md_formt
+        ds.b    4+2+3   md_end 3 'mdv'
+        ds.b    3       spare bit
+sx_pipc ds.l    1       pipe driver link word
+
+* end of system extension
+
+        list

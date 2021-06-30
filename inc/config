@@ -1,0 +1,171 @@
+; Config macros
+ nolist
+
+cf.string equ   $00
+cf.char equ     $02
+cf.code equ     $04
+cf.select equ   $06
+cf.byte  equ    $08
+cf.word equ     $0A
+cf.long equ     $0C
+
+mkcf.apo macro text
+ local s
+mktxt setstr {}
+apost setstr {'}
+l maclab
+s setnum [.instr(text,apost)]
+ ifnum [s] = 0 goto x
+mktxt setstr {[mktxt][.left(text,[s]-1)]''}
+text setstr {[.right(text,[.len(text)]-[s])]}
+ goto l
+x maclab
+mktxt setstr {[mktxt][text]}
+ endm
+
+mkcfhead macro name,version
+ local u
+xname setstr {[.lab]}
+        dc.w    '<<','QCFX>>01'
+ ifstr {[.lab]} = {} goto n
+        xdef    nm_[.lab],vr_[.lab]
+nm_[.lab] dc.w  [.len(name)],'[name]'
+vr_[.lab]
+ goto v
+n maclab
+          dc.w   [.len(name)],'[name]'
+v maclab
+u setstr {_}
+ ifnum [.instr(version,u)] = 0 goto s
+          dc.w   4
+          dc.l  [version]
+ goto x
+s maclab
+vr_[name] dc.w   [.len(version)],'[version]'
+x maclab
+mkcf.itm setnum 0
+mkcf.prm setnum 0
+ endm
+
+mkcfitem macro cftype,cfselk,cfitem,cfprep,cfposp
+ local j,c,t
+mkcf.itm setnum [mkcf.itm]+1
+ ifstr {[.lab]} = {} goto typ
+cf.[.lab] setnum [mkcf.itm]
+typ maclab
+c setstr 0
+t setstr 0
+ ifstr {[cfprep]} = {} goto pr
+        xref    [cfprep]
+c setstr [cfprep]-*
+pr maclab
+ ifstr {[cfposp]} = {} goto po
+        xref    [cfposp]
+t setstr [cfposp]-*
+po maclab
+        dc.b    cf.[cftype],[cfselk]
+        dc.w    [cfitem]-*,[c],[t]
+        dc.w    mkcf[mkcf.itm]d-*
+mkcf.prm setnum [mkcf.prm]+1
+mkcf[mkcf.prm] setstr {mkcf[mkcf.itm]d dc.w mkcf[mkcf.itm]e-*-2}
+j setnum 6
+b maclab
+ mkcf.apo {[.parm([j])]}
+j setnum [j]+1
+ ifstr {[.right(mktxt,1)]} <> {\} goto d
+mkcf.prm setnum [mkcf.prm]+1
+mkcf[mkcf.prm] setstr { dc.b '[.left(mktxt,[.len(mktxt)]-1)]',$a}
+ goto b
+d maclab
+mkcf.prm setnum [mkcf.prm]+1
+mkcf[mkcf.prm] setstr { dc.b '[mktxt]'}
+mkcf.prm setnum [mkcf.prm]+1
+mkcf[mkcf.prm] setstr {mkcf[mkcf.itm]e}
+ ifnum [j] > [.nparms] goto at0
+c setstr .
+t setnum [.instr(cftype,c)]
+ ifnum [t] = 1 goto atp
+        dc.w    mkcf[mkcf.itm]a-*
+ ifnum [t] > 1 goto q
+t setstr {.string.char.code.select.byte.word.long.}
+c setstr {.[cftype].}
+ ifnum [.instr(t,c)] > 0 goto g[cftype]
+q maclab
+        error   [cftype] is not recognised 
+atp maclab ; use previously defined attributes
+        dc.w    mkcf[cf[.parm([j])]]a-*
+ goto x
+gstring maclab
+gchar maclab
+mkcf.prm setnum [mkcf.prm]+1
+mkcf[mkcf.prm] setstr {mkcf[mkcf.itm]a dc.w [.parm([j])]}      
+ goto x
+gcode maclab
+gselect maclab
+mkcf.prm setnum [mkcf.prm]+1
+mkcf[mkcf.prm] setstr {mkcf[mkcf.itm]a ds.w 0}
+r maclab
+t setstr {[.left(.parm([j]+1),1)]}
+ ifstr {[t]} = {} goto pr2
+ mkcf.apo {[t]}
+t setstr {+'[mktxt]'}
+pr2 maclab
+t setstr {([.parm([j])])<<8[t]}
+ mkcf.apo {[.parm([j]+2)]}
+mkcf.prm setnum [mkcf.prm]+1
+mkcf[mkcf.prm] setstr { dc.w [t],[.len(.parm([j]+2))],'[mktxt]'}
+j setnum [j]+3
+ ifnum [j] < [.nparms] goto r
+mkcf.prm setnum [mkcf.prm]+1
+mkcf[mkcf.prm] setstr { dc.w -1}
+ goto x
+gbyte maclab
+gword maclab
+glong maclab
+t setstr {[.left(cftype,1)]}
+mkcf.prm setnum [mkcf.prm]+1
+mkcf[mkcf.prm] setstr {mkcf[mkcf.itm]a dc.[t] [.parm([j])],[.parm([j]+1)]}
+ goto x
+at0 maclab ; no attributes
+        dc.w    0
+x maclab
+ endm
+
+mkcfend macro
+ local j
+        dc.w    -1
+j setnum 0
+l maclab
+j setnum [j]+1
+[mkcf[j]]
+ ifnum [j] < [mkcf.prm] goto l
+ endm
+
+mkcfstr macro name,len,string
+ local p
+        xdef    met_[name]
+mxl_[name] dc.w [len]
+ mkcf.apo {[string]}
+met_[name] dc.w [.len(string)]
+        dc.b    '[mktxt]'
+p setnum [len]-[.len(string)]
+ ifnum [p] <= 0 goto x
+        dcb.b   [p],0
+x maclab
+ endm
+
+mkcfxstr macro name,char,len,string
+ local p
+        xdef    met_[name],mek.[name]
+mxl_[name] dc.w [len]
+ mkcf.apo {[string]}
+met_[name] dc.w [.len(string)]
+        dc.b    '[mktxt]'
+p setnum [len]-[.len(string)]
+ ifnum [p] <= 0 goto x
+        dcb.b   [p],0
+x maclab
+mek.[name] equ  [char]
+ endm
+
+ list

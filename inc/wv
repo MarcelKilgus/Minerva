@@ -1,0 +1,18 @@
+* when variables
+        nolist
+
+        offset  0
+wv.row  ds.w    1       variable index
+wv.wlno ds.w    1       WHEN var line
+wv.wstm ds.b    1       WHEN var stmt
+wv.ewstm ds.b   1       END WHEN stmt
+wv.ewlno ds.w   1       END WHEN line
+wv.rtlno ds.w   1       return line
+wv.rtstm ds.b   1       return stmt
+wv.rtinl ds.b   1       return inlin
+wv.rtind ds.w   1       return index
+wv.inlin ds.b   1       inline WHEN
+wv.spare ds.b   1
+wv.len
+
+        list

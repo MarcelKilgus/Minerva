@@ -1,0 +1,31 @@
+* graphic routines stack frame definition
+        nolist
+
+        offset  -$30
+sav     reg     a0/a3/a5  required save register list
+chnp    ds.l    1       saved a0 = pointer to channel definition block
+        ds.l    2
+lnk ; negated save frame size
+sdx     ds.w    1       square move x increment = -1..1 (*2 if 256 mode) 
+sdy     ds.w    1       square move y increment = -1..1
+ddx     ds.w    1       diagonal move x increment
+ddy     ds.w    1       diagonal move y increment
+x0      ds.w    1       first point x coordinate
+y0      ds.w    1       first point y coordinate
+x1      ds.w    1       last point x coordinate
+y1      ds.w    1       last point y coordinate
+xmin    ds.w    1       left edge of window
+ymin    ds.w    1       top edge of window
+xsize   ds.w    1       window width
+ysize   ds.w    1       window height
+linem   ds.w    1       negated bytes between row addresses (-sd_linel)
+linel   ds.w    1       bytes between row addresses (sd_linel)
+xinc    ds.w    1       1 (512 mode) or 2 (256 mode) for shifts
+        ds.b    1       spare                           
+type    ds.b    1       $ec:line, $dc:arc, $3d:ellipse
+octs    ds.b    1       maximum number of octant changes permitted
+octch   ds.b    1       expected octant change, 0=square, $ff=diagonal
+over    ds.b    1       non-zero if xor on (over -1)
+fmod    ds.b    1       non-zero if area flood on (fill 1)
+
+        list

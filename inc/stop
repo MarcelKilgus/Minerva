@@ -1,0 +1,15 @@
+* superbasic stop numbers
+        nolist
+
+s.clear equ     0
+s.new   equ     2
+s.stop  equ     4
+s.run   equ     6
+s.lrun  equ     8
+s.load  equ     10
+s.mrun  equ     12
+s.merge equ     14
+s.retry equ     16
+s.outm  equ     18
+
+        list

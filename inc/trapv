@@ -1,0 +1,26 @@
+* redirectable trap table offsets
+        nolist
+
+        offset  0
+aerr    ds.l    1       address error
+ill     ds.l    1       illegal instruction
+div0    ds.l    1       divide by zero
+chk     ds.l    1       CHK instruction
+trapv   ds.l    1       TRAPV instruction
+priv    ds.l    1       priviledge violation
+trace   ds.l    1       trace
+int7    ds.l    1       interrupt level 7
+trap5   ds.l    1       redirectable trap instructions
+trap6   ds.l    1
+trap7   ds.l    1
+trap8   ds.l    1
+trap9   ds.l    1
+trap10  ds.l    1
+trap11  ds.l    1
+trap12  ds.l    1
+trap13  ds.l    1
+trap14  ds.l    1
+trap15  ds.l    1
+rdend
+
+        list

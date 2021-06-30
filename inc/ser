@@ -1,0 +1,18 @@
+* serial i/o definitions
+        nolist
+
+ser_rxql equ    81      length of receive buffer (odd!)
+ser_txql equ    81      length of transmit buffer (odd!)
+
+* channel definition block
+
+        offset  $18 (end of basic channel definition)
+ser_chno ds.w   1       channel number (1 or 2)
+ser_par ds.w    1       parity requirement
+ser_txhs ds.w   1       transmit handshake flag
+ser_prot ds.w   1       protocol, +ve cr/lf, 0 ctrlz, -ve raw
+ser_rxq ds.b    q_queue+ser_rxql+1      receive queue
+ser_txq ds.b    q_queue+ser_txql+1      transmit queue header
+ser_end ; total memory required
+
+        list

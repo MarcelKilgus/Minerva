@@ -1,0 +1,30 @@
+* name table types
+        nolist
+
+* First byte
+t.unset equ     0       unset (null if 2nd byte zero)
+t.intern equ    1       internal value held on ri stack
+t.var   equ     2       simple variable
+t.arr   equ     3       array (substring if 2nd byte zero)
+t.bpr   equ     4       basic procedure
+t.bfn   equ     5       basic function
+t.rep   equ     6       repeat loop index
+t.for   equ     7       for loop index
+t.mcp   equ     8       machine code procedure
+t.mcf   equ     9       machine code function
+
+* Second byte
+t.str   equ     1       2 byte positive string length + char {+ pad}
+t.fp    equ     2       6 byte floating point
+t.int   equ     3       2 byte signed integer
+t.log   equ     4       2 byte 0=false 1=true (internal only)
+
+* Second word is name pointer. This is either the offset into the name list, or
+* may be -1 if no name is applicable.
+
+* Second longword is the value pointer. Generally this is an offset into the
+* variable values area, or -1 to indicate an unset entry.
+* For t.mcp/t.mcf this is the absolute entry point.
+* For t.bpr/t.bfn the msw is the define line number.
+
+ list

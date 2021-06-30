@@ -1,0 +1,123 @@
+* system variable definitions
+        nolist
+
+        offset  0
+sv_ident ds.w   1       identification word
+        ds.w    1       spare
+sv_cheap ds.l   1       base of common heap area
+sv_chpfr ds.l   1       first free space in common heap area
+sv_free ds.l    1       base of free area
+sv_basic ds.l   1       base of basic area
+sv_trnsp ds.l   1       base of transient program area
+sv_trnfr ds.l   1       first free space in transient program area
+sv_respr ds.l   1       base of resident procedure area
+sv_ramt ds.l    1       top of ram (+1)
+        ds.w    5       spare
+sv_rand ds.w    1       random number
+sv_pollm ds.w   1       count of poll interupts missed
+sv_tvmod ds.b   1       0 if not tv display
+sv_scrst ds.b   1       screen status (0 = active)
+sv_mcsta ds.b   1       display mode of current job 0/8 mode4/mode8
+sv_pcint ds.b   1       current value of pc interrupt register
+        ds.b    1       spare
+sv_netnr ds.b   1       network station number
+
+sv_i2lst ds.l   1       pointer to list of interrupt 2 drivers
+sv_plist ds.l   1       pointer to list of polled tasks
+sv_shlst ds.l   1       pointer to list of scheduler tasks
+sv_drlst ds.l   1       pointer to list of device drivers
+sv_ddlst ds.l   1       pointer to list of directory device drivers
+sv_keyq ds.l    1       pointer to a keyboard queue
+sv_trapv ds.l   1       pointer to the trap redirection table
+
+* Pointers to the resource management tables
+* The slave block tables have 8 byte entries, the others 4 byte entries
+
+sv_btpnt ds.l   1       pointer to most recent slave block entry
+sv_btbas ds.l   1       pointer to base of slave block table
+sv_bttop ds.l   1       pointer to top of slave block table
+
+sv_jbtag ds.w   1       current value of job tag
+sv_jbmax ds.w   1       highest current job number
+sv_jbpnt ds.l   1       pointer to current job table entry
+sv_jbbas ds.l   1       pointer to base of job table
+sv_jbtop ds.l   1       pointer to top of job table
+
+sv_chtag ds.w   1       current value of channel tag
+sv_chmax ds.w   1       highest current channel number
+sv_chpnt ds.l   1       pointer to last channel checked
+sv_chbas ds.l   1       pointer to base of channel table
+sv_chtop ds.l   1       pointer to top of channel table, and extended sysvars
+
+sv_frbl ds.l    1       interrupt level release memory linked list (sms2)
+        ds.b    1       spare
+        ds.b    1       set to $ff by ptrgen if this is a ql!
+        ds.w    1       spare
+
+sv_caps ds.b    1       caps lock 0=off $ff=on
+        ds.b    1       but people may overwrite as above was defined as w!
+sv_arbuf ds.w   1       autorepeat buffer
+sv_ardel ds.w   1       autorepeat delay
+sv_arfrq ds.w   1       autorepeat 1/freq
+sv_arcnt ds.w   1       autorepeat count
+sv_cqch ds.w    1       keyboard change queue character code (can be + alt!)
+sv_wp   ds.w    1       microdrive write protect (1st byte) ipc p26 input
+sv_sound ds.w   1       sound status (only 1st byte used?)
+sv_ser1c ds.l   1       receive  channel 1 queue address
+sv_ser2c ds.l   1       receive  channel 2 queue address
+sv_tmode ds.b   1       ZX8302 transmit mode (includes last baud rate)
+        ds.b    1       spare
+sv_csub ds.l    1       subroutine to jump to on capslock (only reach + 32767!)
+sv_timo ds.w    1       timeout for switching transmit mode
+sv_timov ds.w   1       ser1/2 control bytes: 7=lost 6=frame 3=inhib 2..0=baud
+sv_fstat ds.w   1       flashing cursor count (silly if > about 16!)
+
+sv_progd ds.l   1       to $60 byte extension, old progd string + qlib_use
+sv_datad ds.l   1       to data default string, this -$24 = new progd
+sv_destd ds.l   1       to dest default string, this is above + $24
+sv_thing ds.l   1       thing list
+
+        ds.w    25      spare
+
+sv_mdrun ds.b   1       which drive is running?
+sv_mdcnt ds.b   1       microdrive run-up run-down counter
+sv_mddid ds.b   8       drive id*4 of each microdrive
+sv_mdsta ds.b   8       status, 0 = no pending ops
+
+sv_fsdef ds.l   16      pointers to file system physical definition
+sv_fslst ds.l   1       pointer to list of file channel definitions
+
+sv_tran ds.b    1       key translation off(0) or on(1)
+sv_ichar ds.b   1       compose char workspace
+sv_trtab ds.l   1       pointer to key translation tables
+sv_mgtab ds.l   1       pointer to message table
+daytab   equ    $1c     err. for names of days
+montab   equ    $1d    err. names of months
+        ds.w    3
+sv_turb1 ds.l   1       used by turbo
+sv_turb2 ds.l   1
+sv_turb3 ds.w   1       length of file name!!!!
+sv_turb4 ds.b   32      actually uses up to 41 bytes for file name!!!!!!
+* taskmaster uses $154 l*4
+
+sv_stacb ds.l   192     bottom of stack
+sv_stact ; big stack - no check
+
+sv_trapo equ 2*($28+2) offset of trap vector table from (sv_trapv)
+
+sv.ident equ $d254 green, red, blue and black, with flash bits
+
+* device driver definitions (for the driver's own pseudo system vars)
+        offset  0
+sv_lxint ds.l   1       link to next external interrupt service
+sv_axint ds.l   1       address of external interrupt service
+sv_lpoll ds.l   1       link to next polling interrupt service
+sv_apoll ds.l   1       address of polling interrupt service
+sv_lschd ds.l   1       link to next scheduler task
+sv_aschd ds.l   1       address of scheduler task
+sv_lio  ds.l    1       link to next io driver
+sv_aio  ds.l    1       address of input/output routine
+sv_aopen ds.l   1       address of channel open routine
+sv_aclos ds.l   1       address of channel close routine
+
+        list
