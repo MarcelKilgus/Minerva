@@ -1,0 +1,3436 @@
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page   1
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Command line and control file information
+=========================================
+
+Command line
+============
+
+ -WITH Ram8_src_minerva_ROM_german_1812_link -PROG dev7_m_rom_1g98 -LI
+ST dev7_m_rom_1g98_map -SYM 
+
+
+Control file
+============
+
+input dev7_m_rom_ver_german_rel
+input dev7_m_ss_lib
+input dev7_m_io_lib
+input dev7_m_ip_lib
+input dev7_m_mt_lib
+input dev7_m_bp_lib
+input dev7_m_mm_lib
+input dev7_m_cn_lib
+input dev7_m_ut_lib
+input dev7_m_bv_lib
+input dev7_m_md_lib
+input dev7_m_nd_lib
+input dev7_m_ca_lib
+input dev7_m_ri_lib
+input dev7_m_od_lib
+input dev7_m_sd_lib
+input dev7_m_dd_lib
+input dev7_m_pa_lib
+input dev7_m_pf_lib
+input dev7_m_sb_lib
+input dev7_m_bf_lib
+input dev7_m_ib_lib
+input dev7_m_gw_lib
+input dev7_m_cs_lib
+input dev7_m_ii_lib
+input dev7_m_tb_german_lib
+
+
+Object module information
+=========================
+
+INPUT dev7_m_ROM_VER_GERMAN_REL
+
+          SRC_MINERVA_ROM_VER_GERMAN GST 68000 Macro Assembler Quanta V1.06 12:3
+3 27/02/18
+
+INPUT dev7_m_SS_LIB
+
+          SRC_MINERVA_SS_BASE GST 68000 Macro Assembler Quanta V1.06 10:35 27/02
+/18
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page   2
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information
+=========================
+
+          SRC_MINERVA_SS_RAMT GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_SS_INIT GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_SS_LIST GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_SS_EXT GST 68000 Macro Assembler Quanta V1.06 10:35 27/02/
+18
+
+          SRC_MINERVA_SS_INT2 GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_SS_JOB GST 68000 Macro Assembler Quanta V1.06 23:15 02/03/
+17
+
+          SRC_MINERVA_SS_ISER GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_SS_UTIL GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_SS_TLIST GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_SS_RESHD GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+INPUT dev7_m_IO_LIB
+
+          SRC_MINERVA_IO_CHANX GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_IO_FDRIV GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_IO_FOPEN GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_IO_NAME GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_IO_QUEUE GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_IO_SCHED GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_IO_SERIO GST 68000 Macro Assembler Quanta V1.06 23:46 26/0
+2/18
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page   3
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+
+          SRC_MINERVA_IO_TRAP2 GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_IO_TRAP3 GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_IO_TRAP4 GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+INPUT dev7_m_IP_LIB
+
+          SRC_MINERVA_IP_INT GST 68000 Macro Assembler Quanta V1.06 23:15 02/03/
+17
+
+          SRC_MINERVA_IP_KBRD GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+INPUT dev7_m_MT_LIB
+
+          SRC_MINERVA_MT_TRAP GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_MT_INF GST 68000 Macro Assembler Quanta V1.06 23:15 02/03/
+17
+
+          SRC_MINERVA_MT_CJOB GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_MT_JINF GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_MT_FREE GST 68000 Macro Assembler Quanta V1.06 23:15 02/03
+/17
+
+          SRC_MINERVA_MT_TRAPV GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_MT_SUSJB GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_MT_ALLOC GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_MT_DMODE GST 68000 Macro Assembler Quanta V1.06 23:15 02/0
+3/17
+
+          SRC_MINERVA_MT_IPCOM GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MT_BAUD GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page   4
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+
+          SRC_MINERVA_MT_RCLCK GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MT_LXINT GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MT_CNTRY GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+INPUT dev7_m_BP_LIB
+
+          SRC_MINERVA_BP_WINDW GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_BP_TURTL GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_BP_MISC GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_BP_PRINT GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_BP_POKE GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_BP_GRAFX GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_BP_FILES GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_BP_CHAN GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_BP_BEEP GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_BP_INIT GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_BP_READ GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_BP_STOP GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_BP_LET GST 68000 Macro Assembler Quanta V1.06 23:16 02/03/
+17
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page   5
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+          SRC_MINERVA_BP_RENUM GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_BP_LIST GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_BP_DATA GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+INPUT dev7_m_MM_LIB
+
+          SRC_MINERVA_MM_FSSB GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_MM_SCAFR GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MM_MVJOB GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MM_LNKFR GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MM_ALLOC GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MM_RETRN GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MM_RECHP GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MM_ALTRN GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MM_ALCHP GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MM_MOVE GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+INPUT dev7_m_CN_LIB
+
+          SRC_MINERVA_CN_STON GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_CN_ITOS GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_CN_FTOD GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page   6
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+          SRC_MINERVA_CN_DATE GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+INPUT dev7_m_UT_LIB
+
+          SRC_MINERVA_UT_CSTR GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_UT_ERR GST 68000 Macro Assembler Quanta V1.06 23:16 02/03/
+17
+
+          SRC_MINERVA_UT_LINK GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_UT_MESSB GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_UT_WINDW GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+INPUT dev7_m_BV_LIB
+
+          SRC_MINERVA_BV_VTYPE GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_BV_NAMES GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_BV_CHSTK GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_BV_ALVV GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_BV_UPNXT GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+INPUT dev7_m_MD_LIB
+
+          SRC_MINERVA_MD_ENDGP GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MD_FORMT GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MD_SEDES GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MD_SERVE GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page   7
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+          SRC_MINERVA_MD_SLAVE GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_MD_READ GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_MD_WRITE GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+INPUT dev7_m_ND_LIB
+
+          SRC_MINERVA_ND_PHYS GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+INPUT dev7_m_CA_LIB
+
+          SRC_MINERVA_CA_CARG GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_CA_CNCAT GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_CA_CNVRT GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_CA_OPEXE GST 68000 Macro Assembler Quanta V1.06 23:16 02/0
+3/17
+
+          SRC_MINERVA_CA_EVAL GST 68000 Macro Assembler Quanta V1.06 23:16 02/03
+/17
+
+          SRC_MINERVA_CA_ETOS GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_CA_FUN GST 68000 Macro Assembler Quanta V1.06 23:17 02/03/
+17
+
+          SRC_MINERVA_CA_GARG GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_CA_GTARG GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_CA_INDX GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_CA_STIND GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+INPUT dev7_m_RI_LIB
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page   8
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+          SRC_MINERVA_RI_SWAP GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_RI_NABS GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_RI_MLDV GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_RI_ADD GST 68000 Macro Assembler Quanta V1.06 23:17 02/03/
+17
+
+          SRC_MINERVA_RI_POWER GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_RI_INT GST 68000 Macro Assembler Quanta V1.06 23:17 02/03/
+17
+
+          SRC_MINERVA_RI_TRIG GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_RI_SQRT GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_RI_MISC GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_RI_EXEC GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+INPUT dev7_m_OD_LIB
+
+          SRC_MINERVA_OD_SER GST 68000 Macro Assembler Quanta V1.06 23:17 02/03/
+17
+
+          SRC_MINERVA_OD_PIPE GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_OD_CONX GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_OD_NET GST 68000 Macro Assembler Quanta V1.06 23:17 02/03/
+17
+
+INPUT dev7_m_SD_LIB
+
+          SRC_MINERVA_SD_FRESH GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_SD_ENTRY GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page   9
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+          SRC_MINERVA_SD_ENQ GST 68000 Macro Assembler Quanta V1.06 23:17 02/03/
+17
+
+          SRC_MINERVA_SD_WDEF GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_SD_CURW GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_SD_POS GST 68000 Macro Assembler Quanta V1.06 23:17 02/03/
+17
+
+          SRC_MINERVA_SD_AREA GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_SD_FILL GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_SD_SETFO GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_SD_SETCO GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_SD_SETAT GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+INPUT dev7_m_DD_LIB
+
+          SRC_MINERVA_DD_MDV GST 68000 Macro Assembler Quanta V1.06 23:17 02/03/
+17
+
+          SRC_MINERVA_DD_MDVIO GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_DD_MDVOP GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_DD_MDVCL GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_DD_MDVSC GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_DD_MDVRN GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_DD_MDVBU GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+INPUT dev7_m_PA_LIB
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  10
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+          SRC_MINERVA_PA_GRTAB GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_PA_TABLE GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_PA_STRIP GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_PA_MIST GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_PA_KYWRD GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_PA_GRAPH GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_PA_CODE GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+          SRC_MINERVA_PA_CHNLT GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_PA_CHNAM GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+INPUT dev7_m_PF_LIB
+
+          SRC_MINERVA_PF_NWLIN GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_PF_RELST GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+INPUT dev7_m_SB_LIB
+
+          SRC_MINERVA_SB_START GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_SB_UNVR GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+INPUT dev7_m_BF_LIB
+
+          SRC_MINERVA_BF_ERFUN GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_BF_DATE GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  11
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+          SRC_MINERVA_BF_KEYRW GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_BF_MOST GST 68000 Macro Assembler Quanta V1.06 23:17 02/03
+/17
+
+INPUT dev7_m_IB_LIB
+
+          SRC_MINERVA_IB_ERROR GST 68000 Macro Assembler Quanta V1.06 23:17 02/0
+3/17
+
+          SRC_MINERVA_IB_WHEN GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_IB_GOLIN GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_IB_CALL GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_IB_NPASS GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_IB_START GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_IB_GOST GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_IB_END GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/
+17
+
+          SRC_MINERVA_IB_LET GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/
+17
+
+          SRC_MINERVA_IB_ARRAY GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_IB_SYMBL GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_IB_SEL GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/
+17
+
+          SRC_MINERVA_IB_RESTR GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_IB_NAME GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_IB_WSCAN GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  12
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+
+          SRC_MINERVA_IB_NEXT GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_IB_PROC GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_IB_DEF GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/
+17
+
+          SRC_MINERVA_IB_CHINL GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_IB_DIM GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/
+17
+
+          SRC_MINERVA_IB_EXIT GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_IB_FOR GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/
+17
+
+          SRC_MINERVA_IB_GOTO GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_IB_IF GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/1
+7
+
+          SRC_MINERVA_IB_KYWRD GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_IB_STOP GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+INPUT dev7_m_GW_LIB
+
+          SRC_MINERVA_GW_PIXEL GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_GW_PIXAD GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_GW_CHOCT GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_GW_PITT GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_GW_TRANS GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  13
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+          SRC_MINERVA_GW_FIG GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/
+17
+
+          SRC_MINERVA_GW_FLOOD GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_GW_SCALE GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_GW_GCUR GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+INPUT dev7_m_CS_LIB
+
+          SRC_MINERVA_CS_CHAR GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_CS_COLOR GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_CS_AREA GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+INPUT dev7_m_II_LIB
+
+          SRC_MINERVA_II_CLOCK GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+          SRC_MINERVA_II_DRIVE GST 68000 Macro Assembler Quanta V1.06 23:18 02/0
+3/17
+
+INPUT dev7_m_TB_GERMAN_LIB
+
+          SRC_MINERVA_TB_MULTI GST 68000 Macro Assembler Quanta V1.06 10:36 27/0
+2/18
+
+          SRC_MINERVA_TB_KBENC_GERMAN GST 68000 Macro Assembler Quanta V1.06 10:
+35 27/02/18
+
+          SRC_MINERVA_TB_KBD GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/
+17
+
+          SRC_MINERVA_TB_ITRN GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_TB_OTRN GST 68000 Macro Assembler Quanta V1.06 23:18 02/03
+/17
+
+          SRC_MINERVA_TB_TRN GST 68000 Macro Assembler Quanta V1.06 00:11 03/03/
+17
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  14
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Object module information - continued
+=====================================
+
+          SRC_MINERVA_TB_MSG_GERMAN GST 68000 Macro Assembler Quanta V1.06 10:35
+ 27/02/18
+
+          SRC_MINERVA_TB_F0 GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/1
+7
+
+          SRC_MINERVA_TB_F1 GST 68000 Macro Assembler Quanta V1.06 23:18 02/03/1
+7
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  15
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map
+========
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+
+SECTION   00000000  00000000                                                 ROM
+
+          00000000  00000000  SRC_MINERVA_ROM_VER_GERMAN
+
+SECTION   00000000  0000025A                                             SS_BASE
+
+          00000000  0000025A  SRC_MINERVA_SS_BASE
+
+SECTION   0000025A  000004D6                                             SS_RAMT
+
+          0000025A  000004D6  SRC_MINERVA_SS_RAMT
+                    00000410    SS_RAMT
+
+SECTION   000004D6  00000622                                             SS_INIT
+
+          000004D6  00000622  SRC_MINERVA_SS_INIT
+                    000004E2    SS_INIT
+
+SECTION   00000622  00000640                                             SS_LIST
+
+          00000622  00000640  SRC_MINERVA_SS_LIST
+                    00000640    SS_LIST
+
+SECTION   00000640  00000670                                              SS_EXT
+
+          00000640  00000670  SRC_MINERVA_SS_EXT
+                    00000640    SS_EXT
+
+SECTION   00000670  00000738                                             SS_INT2
+
+          00000670  00000738  SRC_MINERVA_SS_INT2
+                    000006A8    SS_INT2
+                    000006A8    SS_INTRD
+                    000006EE    SS_NOER
+                    000006F0    SS_RTE
+
+SECTION   00000738  0000078E                                              SS_JOB
+
+          00000738  0000078E  SRC_MINERVA_SS_JOB
+                    00000738    SS_JOBX
+                    0000073C    SS_JOBY
+                    00000760    SS_JOBA
+                    00000784    SS_JOBC
+
+SECTION   0000078E  000007E2                                             SS_ISER
+
+          0000078E  000007E2  SRC_MINERVA_SS_ISER
+                    0000078E    SS_WSER
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  16
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    000007CE    SS_RSER
+                    FFFFC78E    SS$WSER
+                    FFFFC7CE    SS$RSER
+
+SECTION   000007E2  00000812                                             SS_UTIL
+
+          000007E2  00000812  SRC_MINERVA_SS_UTIL
+                    000007E2    SS_JTAG
+                    000007E6    SS_TAG
+
+SECTION   00000812  0000083E                                            SS_TLIST
+
+          00000812  0000083E  SRC_MINERVA_SS_TLIST
+                    00000812    SS_TLIST
+
+SECTION   0000083E  0000093C                                            SS_RESHD
+
+          0000083E  0000093C  SRC_MINERVA_SS_RESHD
+                    0000083E    SS_RESHD
+                    00000868    SS_DLJOB
+                    0000091C    SS_RJ0
+
+SECTION   0000093C  00000972                                            IO_CHANX
+
+          0000093C  00000972  SRC_MINERVA_IO_CHANX
+                    0000093C    IO_CHANX
+
+SECTION   00000972  000009DC                                            IO_FDRIV
+
+          00000972  000009DC  SRC_MINERVA_IO_FDRIV
+                    00000976    IO_FDRIV
+
+SECTION   000009DC  00000AE6                                            IO_FOPEN
+
+          000009DC  00000AE6  SRC_MINERVA_IO_FOPEN
+                    000009DC    IO_FOPEN
+                    00000A4E    IO_RELCH
+
+SECTION   00000AE6  00000B78                                             IO_NAME
+
+          00000AE6  00000B78  SRC_MINERVA_IO_NAME
+                    00000AE6    IO_NAME
+
+SECTION   00000B78  00000C08                                            IO_QUEUE
+
+          00000B78  00000C08  SRC_MINERVA_IO_QUEUE
+                    00000B78    IO_QSET
+                    00000B82    IO_QSETL
+                    00000B94    IO_QTEST
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  17
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    00000BC8    IO_QIN
+                    00000BE8    IO_QOUT
+                    00000C04    IO_QEOF
+                    FFFFCB82    IO$QSETL
+
+SECTION   00000C08  00000C9C                                            IO_SCHED
+
+          00000C08  00000C9C  SRC_MINERVA_IO_SCHED
+                    00000C08    IO_JBCHK
+                    00000C22    IO_SCHED
+
+SECTION   00000C9C  00000D7A                                            IO_SERIO
+
+          00000C9C  00000D7A  SRC_MINERVA_IO_SERIO
+                    00000CA8    IO_SERIO
+                    00000CAA    IO_RELIO
+
+SECTION   00000D7A  00000E60                                            IO_TRAP2
+
+          00000D7A  00000E60  SRC_MINERVA_IO_TRAP2
+                    00000D7A    IO_TRAP2
+
+SECTION   00000E60  00000F28                                            IO_TRAP3
+
+          00000E60  00000F28  SRC_MINERVA_IO_TRAP3
+                    00000E60    IO_TRAP3
+
+SECTION   00000F28  00000F42                                            IO_TRAP4
+
+          00000F28  00000F42  SRC_MINERVA_IO_TRAP4
+                    00000F28    IO_TRAP4
+
+SECTION   00000F42  000010DA                                              IP_INT
+
+          00000F42  000010DA  SRC_MINERVA_IP_INT
+                    00000F42    IP_POLL
+                    00000F4E    IP_IPCR
+                    00000FAE    IP_SETAD
+                    00000FBA    IP_ADCMD
+                    00000FBE    IP_RDWR
+                    00001034    IP_SCHED
+                    00001046    IP_TXQO
+
+SECTION   000010DA  00001204                                             IP_KBRD
+
+          000010DA  00001204  SRC_MINERVA_IP_KBRD
+                    000010DA    IP_KBRD
+                    000010EE    IP_KBEND
+                    000011E6    IP_DSPM
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  18
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    FFFFD0DA    IP$KBRD
+                    FFFFD0EE    IP$KBEND
+
+SECTION   00001204  00001276                                             MT_TRAP
+
+          00001204  00001276  SRC_MINERVA_MT_TRAP
+                    00001204    MT_TRAP
+
+SECTION   00001276  00001292                                              MT_INF
+
+          00001276  00001292  SRC_MINERVA_MT_INF
+                    00001276    MT_INF
+                    0000128A    MT_EXTOP
+
+SECTION   00001292  0000131A                                             MT_CJOB
+
+          00001292  0000131A  SRC_MINERVA_MT_CJOB
+                    00001292    MT_CJOB
+                    000012F4    MT_CJ0
+
+SECTION   0000131A  0000149E                                             MT_JINF
+
+          0000131A  0000149E  SRC_MINERVA_MT_JINF
+                    0000131A    MT_JINF
+                    0000137A    MT_RJOB
+                    0000138E    MT_FRJOB
+                    00001462    MT_CLOSE
+
+SECTION   0000149E  000014C2                                             MT_FREE
+
+          0000149E  000014C2  SRC_MINERVA_MT_FREE
+                    0000149E    MT_FREE
+
+SECTION   000014C2  000014D6                                            MT_TRAPV
+
+          000014C2  000014D6  SRC_MINERVA_MT_TRAPV
+                    000014C2    MT_TRAPV
+
+SECTION   000014D6  00001546                                            MT_SUSJB
+
+          000014D6  00001546  SRC_MINERVA_MT_SUSJB
+                    000014D6    MT_PRIOR
+                    000014E6    MT_ACTIV
+                    0000151C    MT_SUSJB
+                    0000152A    MT_RELJB
+
+SECTION   00001546  000016DE                                            MT_ALLOC
+
+          00001546  000016DE  SRC_MINERVA_MT_ALLOC
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  19
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    00001546    MT_ALLOC
+                    00001554    MT_LNKFR
+                    0000156C    MT_ALCHP
+                    00001594    MT_RECHP
+                    0000159E    MT_ALRES
+                    000015C8    MT_RERES
+                    000015F6    MT_REBAS
+                    0000162A    MT_ALBAS
+
+SECTION   000016DE  000017D4                                            MT_DMODE
+
+          000016DE  000017D4  SRC_MINERVA_MT_DMODE
+                    000016DE    MT_DMODE
+
+SECTION   000017D4  00001880                                            MT_IPCOM
+
+          000017D4  00001880  SRC_MINERVA_MT_IPCOM
+                    000017D4    MT_IPCOM
+
+SECTION   00001880  00001910                                             MT_BAUD
+
+          00001880  00001910  SRC_MINERVA_MT_BAUD
+                    00001880    MT_BAUD
+
+SECTION   00001910  0000194E                                            MT_RCLCK
+
+          00001910  0000194E  SRC_MINERVA_MT_RCLCK
+                    00001910    MT_RCLCK
+                    00001910    MT_ACLCK
+                    00001910    MT_SCLCK
+
+SECTION   0000194E  00001968                                            MT_LXINT
+
+          0000194E  00001968  SRC_MINERVA_MT_LXINT
+                    0000194E    MT_LSCHD
+                    0000194E    MT_LDD
+                    0000194E    MT_LPOLL
+                    0000194E    MT_LIOD
+                    0000194E    MT_LXINT
+                    0000195A    MT_RIOD
+                    0000195A    MT_RSCHD
+                    0000195A    MT_RPOLL
+                    0000195A    MT_RDD
+                    0000195A    MT_RXINT
+
+SECTION   00001968  000019B4                                            MT_CNTRY
+
+          00001968  000019B4  SRC_MINERVA_MT_CNTRY
+                    00001968    MT_CNTRY
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  20
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+
+SECTION   000019B4  00001AF6                                            BP_WINDW
+
+          000019B4  00001AF6  SRC_MINERVA_BP_WINDW
+                    000019EA    BP_BLOCK
+                    000019EC    BP_BORDR
+                    000019EE    BP_WINDW
+                    00001A1E    BP_RECOL
+                    00001A3C    BP_WIDTH
+                    00001A48    BP_PAPER
+                    00001A4A    BP_INK
+                    00001A4C    BP_STRIP
+                    00001A7C    BP_OVER
+                    00001A7E    BP_UNDER
+                    00001A80    BP_FLASH
+                    00001A9E    BP_FILL
+                    00001AAE    BP_CSIZE
+                    00001AB0    BP_AT
+                    00001AC2    BP_CURSR
+                    00001ACE    BP_CLS
+                    00001AD0    BP_PAN
+                    00001AD2    BP_SCROL
+
+SECTION   00001AF6  00001B62                                            BP_TURTL
+
+          00001AF6  00001B62  SRC_MINERVA_BP_TURTL
+                    00001AF6    BP_MOVE
+                    00001AF8    BP_TURN
+                    00001AFA    BP_TURNO
+                    00001B2C    BP_PENDN
+                    00001B2E    BP_PENUP
+
+SECTION   00001B62  00001C48                                             BP_MISC
+
+          00001B62  00001C48  SRC_MINERVA_BP_MISC
+                    00001B6C    BP_REPOT
+                    00001B8A    BP_MODE
+                    00001BAC    BP_NET
+                    00001BBE    BP_CALL
+                    00001BE4    BP_RANDE
+                    00001C14    BP_BAUD
+                    00001C20    BP_TRA
+
+SECTION   00001C48  00001F5E                                            BP_PRINT
+
+          00001C48  00001F5E  SRC_MINERVA_BP_PRINT
+                    00001C48    BP_PRINT
+                    00001C4A    BP_INPUT
+                    00001EDE    BP_RDBUF
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  21
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+
+SECTION   00001F5E  00001FE4                                             BP_POKE
+
+          00001F5E  00001FE4  SRC_MINERVA_BP_POKE
+                    00001F5E    BP_POKEL
+                    00001F60    BP_POKEW
+                    00001F62    BP_POKE
+                    00001F66    BP_PEPO
+
+SECTION   00001FE4  00002114                                            BP_GRAFX
+
+          00001FE4  00002114  SRC_MINERVA_BP_GRAFX
+                    00002034    BP_GCUR
+                    00002056    BP_SCALE
+                    00002068    BP_POINR
+                    0000206A    BP_POINT
+                    0000206E    BP_LINER
+                    00002070    BP_LINE
+                    0000207C    BP_ARCR
+                    0000207E    BP_ARC
+                    0000208A    BP_CIRCR
+                    0000208A    BP_ELLIR
+                    0000208C    BP_CIRCE
+                    0000208C    BP_ELLIE
+
+SECTION   00002114  000024B0                                            BP_FILES
+
+          00002114  000024B0  SRC_MINERVA_BP_FILES
+                    00002114    BP_EXECW
+                    00002116    BP_EXEC
+                    0000221E    BP_LBYTS
+                    0000226C    BP_SEXEC
+                    0000226E    BP_SBYTS
+                    00002294    BP_DELEE
+                    000022A0    BP_SAVE
+                    00002312    BP_FOPIN
+                    0000233E    BP_DIR
+                    0000238A    BP_FORMT
+                    000023D2    BP_COPYN
+                    000023D4    BP_COPY
+                    00002442    BP_CLOSE
+                    00002484    BP_OPENW
+                    00002486    BP_OPENN
+                    00002488    BP_OPEN
+                    FFFFE2C6    BP$FNAME
+
+SECTION   000024B0  0000254A                                             BP_CHAN
+
+          000024B0  0000254A  SRC_MINERVA_BP_CHAN
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  22
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    000024D6    BP_CHNEW
+                    00002502    BP_CHAN
+                    00002504    BP_CHAND
+                    0000252C    BP_CHNID
+                    FFFFE4D6    BP$CHNEW
+                    FFFFE502    BP$CHAN
+                    FFFFE504    BP$CHAND
+                    FFFFE52C    BP$CHNID
+
+SECTION   0000254A  000025C8                                             BP_BEEP
+
+          0000254A  000025C8  SRC_MINERVA_BP_BEEP
+                    0000254A    BP_BEEP
+
+SECTION   000025C8  00002ADC                                             BP_INIT
+
+          000025C8  00002ADC  SRC_MINERVA_BP_INIT
+                    000025C8    BP_INIT0
+                    000025CC    BP_INIT
+
+SECTION   00002ADC  00002C52                                             BP_READ
+
+          00002ADC  00002C52  SRC_MINERVA_BP_READ
+                    00002ADC    BP_RDCHK
+                    00002B14    BP_READ
+                    00002B5A    BP_ARSET
+                    00002B7A    BP_ARNXT
+                    00002BA6    BP_AREND
+                    00002C12    BP_ARIND
+
+SECTION   00002C52  00002D12                                             BP_STOP
+
+          00002C52  00002D12  SRC_MINERVA_BP_STOP
+                    00002C52    BP_RETRY
+                    00002C5C    BP_CONTE
+                    00002C70    BP_CONTI
+                    00002C76    BP_STOP
+                    00002C78    BP_NEW
+                    00002C7E    BP_RUN
+                    00002C9C    BP_LOAD
+                    00002CAA    BP_MERGE
+                    00002CAC    BP_MRUN
+                    00002CB0    BP_LRUN
+                    00002CC4    BP_CLEAR
+                    00002CE8    BP_CHUNR
+                    00002CFE    BP_COMCH
+
+SECTION   00002D12  00002E5C                                              BP_LET
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  23
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+          00002D12  00002E5C  SRC_MINERVA_BP_LET
+                    00002D12    BP_LET
+                    00002D66    BP_ALVV
+
+SECTION   00002E5C  000030F2                                            BP_RENUM
+
+          00002E5C  000030F2  SRC_MINERVA_BP_RENUM
+                    00002E5C    BP_AUTO
+                    00002E5E    BP_EDIT
+                    00002E62    BP_RENUM
+
+SECTION   000030F2  00003524                                             BP_LIST
+
+          000030F2  00003524  SRC_MINERVA_BP_LIST
+                    000030F2    BP_GSEP
+                    00003102    BP_DLINE
+                    00003108    BP_LIST
+                    00003110    BP_LISTD
+                    00003196    BP_GINT
+                    000031B6    BP_LISTR
+                    000031BA    BP_LIST2
+                    00003240    BP_LISTE
+                    00003290    BP_CHKLS
+                    00003298    BP_LSQZP
+                    0000329C    BP_LSZAP
+                    000032AE    BP_DETOK
+                    000032C6    BP_LISTF
+
+SECTION   00003524  00003596                                             BP_DATA
+
+          00003524  00003596  SRC_MINERVA_BP_DATA
+                    00003524    BP_DATA
+
+SECTION   00003596  00003646                                             MM_FSSB
+
+          00003596  00003646  SRC_MINERVA_MM_FSSB
+                    000035C8    MM_ALTOP
+                    000035E2    MM_ALBOT
+                    00003624    MM_RETOP
+                    0000362E    MM_REBOT
+
+SECTION   00003646  00003670                                            MM_SCAFR
+
+          00003646  00003670  SRC_MINERVA_MM_SCAFR
+                    00003646    MM_SCAFR
+
+SECTION   00003670  000036B2                                            MM_MVJOB
+
+          00003670  000036B2  SRC_MINERVA_MM_MVJOB
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  24
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    00003670    MM_MUBAS
+                    00003676    MM_MDBAS
+                    00003688    MM_MVJOB
+
+SECTION   000036B2  00003702                                            MM_LNKFR
+
+          000036B2  00003702  SRC_MINERVA_MM_LNKFR
+                    000036B2    MM_LNKF0
+                    000036B6    MM_LNKFR
+
+SECTION   00003702  0000373E                                            MM_ALLOC
+
+          00003702  0000373E  SRC_MINERVA_MM_ALLOC
+                    00003702    MM_ALLOC
+                    00003706    MM_ALLOI
+
+SECTION   0000373E  00003770                                            MM_RETRN
+
+          0000373E  00003770  SRC_MINERVA_MM_RETRN
+                    0000373E    MM_RETRN
+
+SECTION   00003770  000037AC                                            MM_RECHP
+
+          00003770  000037AC  SRC_MINERVA_MM_RECHP
+                    00003770    MM_RECHP
+
+SECTION   000037AC  00003810                                            MM_ALTRN
+
+          000037AC  00003810  SRC_MINERVA_MM_ALTRN
+                    000037AC    MM_WHTRN
+                    000037E6    MM_ALTRN
+                    000037EA    MM_GOTRN
+
+SECTION   00003810  0000385E                                            MM_ALCHP
+
+          00003810  0000385E  SRC_MINERVA_MM_ALCHP
+                    0000382E    MM_ALCHP
+
+SECTION   0000385E  000039C6                                             MM_MOVE
+
+          0000385E  000039C6  SRC_MINERVA_MM_MOVE
+                    0000385E    MM_CLRR
+                    00003862    MM_MRTOA
+                    0000386A    MM_MRTOR
+                    00003882    MM_CLEAR
+                    00003936    MM_MOVE
+                    FFFFF85E    MM$CLRR
+                    FFFFF862    MM$MRTOA
+                    FFFFF866    MM$MATOR
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  25
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    FFFFF86A    MM$MRTOR
+                    FFFFF882    MM$CLEAR
+                    FFFFF936    MM$MOVE
+
+SECTION   000039C6  00003B58                                             CN_STON
+
+          000039C6  00003B58  SRC_MINERVA_CN_STON
+                    000039CC    CN_DTOF
+                    00003AD0    CN_DTOI
+                    00003AE2    CN_HTOIB
+                    00003AE6    CN_HTOIW
+                    00003AEA    CN_HTOIL
+                    00003B38    CN_BTOIB
+                    00003B3C    CN_BTOIW
+                    00003B40    CN_BTOIL
+
+SECTION   00003B58  00003BE6                                             CN_ITOS
+
+          00003B58  00003BE6  SRC_MINERVA_CN_ITOS
+                    00003B58    CN_ITOD
+                    00003B5E    CN_0TOD
+                    00003B98    CN_ITOHL
+                    00003B9C    CN_ITOHW
+                    00003BA0    CN_ITOHB
+                    00003BC4    CN_ITOBL
+                    00003BC8    CN_ITOBW
+                    00003BCC    CN_ITOBB
+
+SECTION   00003BE6  00003CFC                                             CN_FTOD
+
+          00003BE6  00003CFC  SRC_MINERVA_CN_FTOD
+                    00003BE6    CN_FTOD
+
+SECTION   00003CFC  00003DEE                                             CN_DATE
+
+          00003CFC  00003DEE  SRC_MINERVA_CN_DATE
+                    00003D44    CN_DATE
+                    00003D76    CN_DAY
+
+SECTION   00003DEE  00003F38                                             UT_CSTR
+
+          00003DEE  00003F38  SRC_MINERVA_UT_CSTR
+                    00003E0C    UT_ISTR
+                    00003E72    UT_CSTR
+                    00003E80    UT_CSSTR
+                    FFFFFE0C    UT$ISTR
+
+SECTION   00003F38  00003F72                                              UT_ERR
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  26
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+          00003F38  00003F72  SRC_MINERVA_UT_ERR
+                    00003F38    UT_ERR0
+                    00003F42    UT_ERR
+
+SECTION   00003F72  00003F86                                             UT_LINK
+
+          00003F72  00003F86  SRC_MINERVA_UT_LINK
+                    00003F72    UT_LINK
+                    00003F7A    UT_UNLNK
+
+SECTION   00003F86  00003FD8                                            UT_MESSB
+
+          00003F86  00003FD8  SRC_MINERVA_UT_MESSB
+                    00003F86    UT_MINT
+                    00003FA6    UT_MTEXT
+                    00003FA8    UT_WRITE
+
+SECTION   00003FD8  00004040                                            UT_WINDW
+
+          00003FD8  00004040  SRC_MINERVA_UT_WINDW
+                    00003FD8    UT_WINDW
+                    00003FE0    UT_CON
+                    00003FF0    UT_SCR
+                    00004002    UT_WRDEF
+
+SECTION   00004040  00004064                                            BV_VTYPE
+
+          00004040  00004064  SRC_MINERVA_BV_VTYPE
+                    00004040    BV_VTYPE
+
+SECTION   00004064  00004178                                            BV_NAMES
+
+          00004064  00004178  SRC_MINERVA_BV_NAMES
+                    00004064    BV_NAMEI
+                    0000409E    BV_NAMES
+
+SECTION   00004178  00004306                                            BV_CHSTK
+
+          00004178  00004306  SRC_MINERVA_BV_CHSTK
+                    00004178    BV_CHRI
+                    0000417A    BV_CHRIX
+                    0000417E    BV_CHBT
+                    0000418A    BV_CHNT
+                    00004190    BV_CHRT
+                    00004196    BV_CHBFX
+                    0000419A    BV_CHTKX
+                    0000419E    BV_CHNLX
+                    000041A2    BV_CHVVX
+                    000041A6    BV_CHCHX
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  27
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    000041AA    BV_CHLNX
+                    000041AE    BV_CHPFX
+                    000041C0    BV_CHSS
+                    000041C4    BV_CHSSX
+                    0000422E    BV_OM
+                    00004234    BV_DIE
+                    00004254    BV_NEW
+                    00004258    BV_CLEAR
+                    0000427E    BV_CLRT
+
+SECTION   00004306  00004366                                             BV_ALVV
+
+          00004306  00004366  SRC_MINERVA_BV_ALVV
+                    00004306    BV_ALVV
+                    0000430E    BV_ALVVZ
+                    0000434A    BV_FRVV
+
+SECTION   00004366  00004388                                            BV_UPNXT
+
+          00004366  00004388  SRC_MINERVA_BV_UPNXT
+                    0000437E    BV_UPNXT
+                    00004380    BV_UPLET
+                    00004382    BV_UPMCF
+                    00004384    BV_UPSWP
+                    00004386    BV_UPRNM
+
+SECTION   00004388  000043B6                                            MD_ENDGP
+
+          00004388  000043B6  SRC_MINERVA_MD_ENDGP
+                    00004388    MD_ENDGP
+
+SECTION   000043B6  0000451C                                            MD_FORMT
+
+          000043B6  0000451C  SRC_MINERVA_MD_FORMT
+                    000043BA    MD_FORMT
+
+SECTION   0000451C  0000453C                                            MD_SEDES
+
+          0000451C  0000453C  SRC_MINERVA_MD_SEDES
+                    0000451C    MD_SELEC
+                    00004522    MD_DESEL
+                    0000051C    MD$SELEC
+                    00000522    MD$DESEL
+
+SECTION   0000453C  000046D4                                            MD_SERVE
+
+          0000453C  000046D4  SRC_MINERVA_MD_SERVE
+                    00004584    MD_SERVE
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  28
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+SECTION   000046D4  00004712                                            MD_SLAVE
+
+          000046D4  00004712  SRC_MINERVA_MD_SLAVE
+                    000046D4    MD_SLAVE
+                    000046D8    MD_SLAVN
+
+SECTION   00004712  000047F8                                             MD_READ
+
+          00004712  000047F8  SRC_MINERVA_MD_READ
+                    00004712    MD_FSECT
+                    00004726    MD_SECTR
+                    00004746    MD_READ
+                    0000474C    MD_VERIN
+                    00004792    MD_VERIL
+                    00000726    MD$SECTR
+                    00000746    MD$READ
+                    0000074C    MD$VERIN
+
+SECTION   000047F8  00004874                                            MD_WRITE
+
+          000047F8  00004874  SRC_MINERVA_MD_WRITE
+                    000047F8    MD_WRITE
+                    0000482C    MD_WBLOK
+                    000007F8    MD$WRITE
+
+SECTION   00004874  00004A46                                             ND_PHYS
+
+          00004874  00004A46  SRC_MINERVA_ND_PHYS
+                    000048BA    ND_SPAC
+                    0000497C    ND_RPAC
+
+SECTION   00004A46  00004B02                                             CA_CARG
+
+          00004A46  00004B02  SRC_MINERVA_CA_CARG
+                    00004A50    CA_FRVAR
+                    00004A90    CA_CARG
+
+SECTION   00004B02  00004BE4                                            CA_CNCAT
+
+          00004B02  00004BE4  SRC_MINERVA_CA_CNCAT
+                    00004B02    CA_CNCAT
+
+SECTION   00004BE4  00004CC6                                            CA_CNVRT
+
+          00004BE4  00004CC6  SRC_MINERVA_CA_CNVRT
+                    00004BE4    CA_CNVRT
+                    00000BE4    CA$CNVRT
+
+SECTION   00004CC6  00005028                                            CA_OPEXE
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  29
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+
+          00004CC6  00005028  SRC_MINERVA_CA_OPEXE
+                    00004D12    CA_OPEXE
+                    00000D12    CA$OPEXE
+
+SECTION   00005028  0000529A                                             CA_EVAL
+
+          00005028  0000529A  SRC_MINERVA_CA_EVAL
+                    00005034    CA_EVALI
+                    00005038    CA_EVALC
+                    0000503A    CA_EVAL
+                    00005060    CA_EXPR
+                    0000521A    CA_OLDNT
+                    00005230    CA_NEWNT
+                    0000103A    CA$EVAL
+
+SECTION   0000529A  000053D2                                             CA_ETOS
+
+          0000529A  000053D2  SRC_MINERVA_CA_ETOS
+                    0000529A    CA_ETOS
+                    00005346    CA_PUTSS
+                    0000538C    CA_UNDO
+
+SECTION   000053D2  00005488                                              CA_FUN
+
+          000053D2  00005488  SRC_MINERVA_CA_FUN
+                    000053D2    CA_FUN
+
+SECTION   00005488  00005550                                             CA_GARG
+
+          00005488  00005550  SRC_MINERVA_CA_GARG
+                    00005488    CA_CHKVV
+                    000054CC    CA_GARG
+
+SECTION   00005550  000055C6                                            CA_GTARG
+
+          00005550  000055C6  SRC_MINERVA_CA_GTARG
+                    00005550    CA_GTLI1
+                    00005558    CA_GTFP1
+                    0000555C    CA_GTST1
+                    00005560    CA_GTIN1
+                    00005574    CA_GTSTR
+                    00005578    CA_GTINT
+                    0000557C    CA_GTFP
+                    00005580    CA_GTLIN
+
+SECTION   000055C6  00005730                                             CA_INDX
+
+          000055C6  00005730  SRC_MINERVA_CA_INDX
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  30
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    000055C6    CA_RANGE
+                    0000560A    CA_INDX
+
+SECTION   00005730  000057CE                                            CA_STIND
+
+          00005730  000057CE  SRC_MINERVA_CA_STIND
+                    00005730    CA_STIND
+                    000057A8    CA_SSIND
+
+SECTION   000057CE  0000582E                                             RI_SWAP
+
+          000057CE  0000582E  SRC_MINERVA_RI_SWAP
+                    000057CE    RI_SWAP
+                    000057EE    RI_OVER
+                    00005800    RI_DUP
+                    00005812    RI_ROLL
+
+SECTION   0000582E  00005872                                             RI_NABS
+
+          0000582E  00005872  SRC_MINERVA_RI_NABS
+                    00005856    RI_ABS
+                    0000585C    RI_NEG
+
+SECTION   00005872  000059BC                                             RI_MLDV
+
+          00005872  000059BC  SRC_MINERVA_RI_MLDV
+                    00005892    RI_SQUAR
+                    00005896    RI_MULT
+                    0000595A    RI_RECIP
+                    0000595E    RI_RDIV
+                    00005962    RI_DIV
+
+SECTION   000059BC  00005B4E                                              RI_ADD
+
+          000059BC  00005B4E  SRC_MINERVA_RI_ADD
+                    000059BC    RI_SUB
+                    000059C0    RI_ADD
+                    00005A22    RI_DOUBL
+                    00005A26    RI_CHKOV
+                    00005A2E    RI_ERROV
+                    00005A46    RI_FLOAT
+                    00005A96    RI_RENRM
+                    00005AAE    RI_FLONG
+                    00005AB4    RI_FLLIN
+                    00005ACA    RI_CMP
+
+SECTION   00005B4E  00005C00                                            RI_POWER
+
+          00005B4E  00005C00  SRC_MINERVA_RI_POWER
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  31
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    00005B4E    RI_POWFP
+                    00005B78    RI_POWER
+
+SECTION   00005C00  00005C5A                                              RI_INT
+
+          00005C00  00005C5A  SRC_MINERVA_RI_INT
+                    00005C28    RI_NINT
+                    00005C2C    RI_INT
+                    00005C3A    RI_NLINT
+                    00005C3E    RI_LINT
+
+SECTION   00005C5A  0000602C                                             RI_TRIG
+
+          00005C5A  0000602C  SRC_MINERVA_RI_TRIG
+                    00005C94    RI_SIN
+                    00005C9C    RI_COS
+                    00005D1E    RI_TAN
+                    00005D26    RI_COT
+                    00005D8E    RI_ACOS
+                    00005D98    RI_ASIN
+                    00005DAC    RI_ACOT
+                    00005DB8    RI_ATAN
+                    00005DBA    RI_ARG
+                    00005E80    RI_LOG10
+                    00005E90    RI_LN
+                    00005EF6    RI_EXP
+
+SECTION   0000602C  00006106                                             RI_SQRT
+
+          0000602C  00006106  SRC_MINERVA_RI_SQRT
+                    0000602C    RI_MOD
+                    0000602E    RI_SSS
+                    000060AC    RI_SQRT
+
+SECTION   00006106  00006176                                             RI_MISC
+
+          00006106  00006176  SRC_MINERVA_RI_MISC
+                    00006106    RI_HALVE
+                    00006116    RI_ONE
+                    00006122    RI_ZERO
+                    00006132    RI_N
+                    00006134    RI_N_B
+                    00006142    RI_K
+                    00006144    RI_K_B
+
+SECTION   00006176  0000624A                                             RI_EXEC
+
+          00006176  0000624A  SRC_MINERVA_RI_EXEC
+                    000061D8    RI_ABEX
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  32
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    000061E0    RI_ABEXB
+                    000061EA    RI_EXEC
+                    000061F8    RI_EXECB
+
+SECTION   0000624A  000063AE                                              OD_SER
+
+          0000624A  000063AE  SRC_MINERVA_OD_SER
+                    0000624A    OD_SER
+
+SECTION   000063AE  0000656C                                             OD_PIPE
+
+          000063AE  0000656C  SRC_MINERVA_OD_PIPE
+                    000063AE    OD_PIPE
+                    000063EA    IO_SERQ
+
+SECTION   0000656C  00006A42                                              OD_CON
+
+          0000656C  00006A42  SRC_MINERVA_OD_CONX
+                    0000656C    OD_CON
+
+SECTION   00006A42  00006B24                                              OD_NET
+
+          00006A42  00006B24  SRC_MINERVA_OD_NET
+                    00006A42    OD_NET
+
+SECTION   00006B24  00006BA8                                            SD_FRESH
+
+          00006B24  00006BA8  SRC_MINERVA_SD_FRESH
+                    00006B24    SD_FRESH
+                    00006B78    SD_MODES
+
+SECTION   00006BA8  00006C88                                            SD_ENTRY
+
+          00006BA8  00006C88  SRC_MINERVA_SD_ENTRY
+                    00006BA8    SD_ENTRY
+
+SECTION   00006C88  00006CB4                                              SD_ENQ
+
+          00006C88  00006CB4  SRC_MINERVA_SD_ENQ
+                    00006C88    SD_PXENQ
+                    00006C98    SD_CHENQ
+
+SECTION   00006CB4  00006D7A                                             SD_WDEF
+
+          00006CB4  00006D7A  SRC_MINERVA_SD_WDEF
+                    00006CB4    SD_WDEF
+                    00006D12    SD_BORDR
+                    00006D16    SD_BORDN
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  33
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+SECTION   00006D7A  00006E0C                                             SD_CURW
+
+          00006D7A  00006E0C  SRC_MINERVA_SD_CURW
+                    00006D7A    SD_CURS
+                    00006D84    SD_CURE
+                    00006D92    SD_SCHED
+                    00006DBA    SD_CURT
+
+SECTION   00006E0C  00006ED0                                              SD_POS
+
+          00006E0C  00006ED0  SRC_MINERVA_SD_POS
+                    00006E0C    SD_PCOL
+                    00006E16    SD_NCOL
+                    00006E22    SD_PROW
+                    00006E2E    SD_NROW
+                    00006E3C    SD_HOME
+                    00006E42    SD_TAB
+                    00006E48    SD_POS
+                    00006E60    SD_PIXP
+                    00006E6C    SD_SETC
+                    00006E84    SD_NL
+                    00006E88    SD_CHCHK
+                    00006EA8    SD_DONL
+                    00006EAE    SD_NEWL
+
+SECTION   00006ED0  00006F5A                                             SD_AREA
+
+          00006ED0  00006F5A  SRC_MINERVA_SD_AREA
+                    00006ED0    SD_RECOL
+                    00006ED8    SD_CLEAR
+                    00006EDC    SD_CLRXX
+                    00006EE2    SD_SCROL
+                    00006EE8    SD_PAN
+
+SECTION   00006F5A  00006FC6                                             SD_FILL
+
+          00006F5A  00006FC6  SRC_MINERVA_SD_FILL
+                    00006F5A    SD_FILL
+
+SECTION   00006FC6  00006FE8                                            SD_SETFO
+
+          00006FC6  00006FE8  SRC_MINERVA_SD_SETFO
+                    00006FC6    SD_SETFO
+
+SECTION   00006FE8  00006FF8                                            SD_SETCO
+
+          00006FE8  00006FF8  SRC_MINERVA_SD_SETCO
+                    00006FE8    SD_SETCO
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  34
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+SECTION   00006FF8  00007086                                            SD_SETAT
+
+          00006FF8  00007086  SRC_MINERVA_SD_SETAT
+                    00006FF8    SD_SETFL
+                    00007004    SD_SETMD
+                    0000700A    SD_SETUL
+                    00007012    SD_SETSZ
+
+SECTION   00007086  0000709E                                              DD_MDV
+
+          00007086  0000709E  SRC_MINERVA_DD_MDV
+                    00007086    DD_MDV
+
+SECTION   0000709E  0000723A                                            DD_MDVIO
+
+          0000709E  0000723A  SRC_MINERVA_DD_MDVIO
+                    0000709E    DD_MDVRR
+                    0000710A    DD_MDVPD
+                    00007120    DD_MDVIO
+
+SECTION   0000723A  000073DE                                            DD_MDVOP
+
+          0000723A  000073DE  SRC_MINERVA_DD_MDVOP
+                    0000723A    DD_MDVOP
+                    000073B6    DD_MDVTR
+
+SECTION   000073DE  0000746A                                            DD_MDVCL
+
+          000073DE  0000746A  SRC_MINERVA_DD_MDVCL
+                    000073DE    DD_MDVCL
+                    000073EC    DD_MDVLU
+                    000073F6    DD_MDVCD
+
+SECTION   0000746A  00007592                                            DD_MDVSC
+
+          0000746A  00007592  SRC_MINERVA_DD_MDVSC
+                    0000746A    DD_MDVSC
+
+SECTION   00007592  00007684                                            DD_MDVRN
+
+          00007592  00007684  SRC_MINERVA_DD_MDVRN
+                    00007592    DD_MDVRN
+
+SECTION   00007684  00007888                                            DD_MDVBU
+
+          00007684  00007888  SRC_MINERVA_DD_MDVBU
+                    00007684    DD_MDVBU
+                    0000784A    DD_MDVNB
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  35
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+SECTION   00007888  00007AE8                                            PA_GRTAB
+
+          00007888  00007AE8  SRC_MINERVA_PA_GRTAB
+                    00007888    PA_GRTAB
+                    00007A1E    PA_KYTAB
+                    000039C1    PA$EXPR
+
+SECTION   00007AE8  00007AF0                                            PA_TABLE
+
+          00007AE8  00007AF0  SRC_MINERVA_PA_TABLE
+                    00007AE8    PA_TABLE
+                    00003AE8    PA$TABLE
+
+SECTION   00007AF0  00007B4E                                            PA_STRIP
+
+          00007AF0  00007B4E  SRC_MINERVA_PA_STRIP
+                    00007AF0    PA_STRIP
+                    00003AF0    PA$STRIP
+
+SECTION   00007B4E  00007B76                                             PA_MIST
+
+          00007B4E  00007B76  SRC_MINERVA_PA_MIST
+                    00007B4E    PA_MIST
+                    00003B4E    PA$MIST
+
+SECTION   00007B76  00007BE6                                            PA_KYWRD
+
+          00007B76  00007BE6  SRC_MINERVA_PA_KYWRD
+                    00007B76    PA_KYWRD
+
+SECTION   00007BE6  00007D1E                                            PA_GRAPH
+
+          00007BE6  00007D1E  SRC_MINERVA_PA_GRAPH
+                    00007BFA    PA_GRAPH
+                    00007D14    PA_TBSYM
+                    00003BFA    PA$GRAPH
+                    00003D12    PA$INI
+
+SECTION   00007D1E  00007F5C                                             PA_CODE
+
+          00007D1E  00007F5C  SRC_MINERVA_PA_CODE
+                    00007D1E    PA_CDSPC
+                    00007D3E    PA_CDTXT
+                    00007D50    PA_TEXT
+                    00007D64    PA_CDSYV
+                    00007D66    PA_CDSTR
+                    00007DB6    PA_CDNUM
+                    00007DB6    PA_CDVAL
+                    00007DF8    PA_CDLNO
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  36
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    00007E4C    PA_CDNAM
+                    00007E8E    PA_TOK1
+                    00007EDA    PA_CDSEP
+                    00007EDD    PA_TBSEP
+                    00007EEE    PA_CDMON
+                    00007EF1    PA_TBMON
+                    00007F02    PA_CDOPS
+                    00007F05    PA_TBOPS
+
+SECTION   00007F5C  00007FD0                                            PA_CHNLT
+
+          00007F5C  00007FD0  SRC_MINERVA_PA_CHNLT
+                    00007F5C    PA_CHNLT
+                    00007F74    PA_ALFNM
+
+SECTION   00007FD0  000080B0                                            PA_CHNAM
+
+          00007FD0  000080B0  SRC_MINERVA_PA_CHNAM
+                    00007FD0    PA_CHNAM
+                    00008044    PA_CHUNR
+
+SECTION   000080B0  000081A6                                            PF_NWLIN
+
+          000080B0  000081A6  SRC_MINERVA_PF_NWLIN
+                    000080B0    PF_NWLIN
+                    000040B0    PF$NWLIN
+
+SECTION   000081A6  000081B4                                            PF_RELST
+
+          000081A6  000081B4  SRC_MINERVA_PF_RELST
+                    000041AC    PF$LISTE
+
+SECTION   000081B4  000084B0                                            SB_START
+
+          000081B4  000084B0  SRC_MINERVA_SB_START
+                    000081BC    SB_START
+                    000041BC    SB$START
+
+SECTION   000084B0  000086A0                                             SB_UNVR
+
+          000084B0  000086A0  SRC_MINERVA_SB_UNVR
+                    000084B0    SB_UNVR
+                    000084EE    SB_READ
+
+SECTION   000086A0  0000870E                                            BF_ERFUN
+
+          000086A0  0000870E  SRC_MINERVA_BF_ERFUN
+                    000086A0    BF_ERRBL
+                    000086A2    BF_ERRRO
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  37
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    000086A4    BF_ERRNI
+                    000086A6    BF_ERROV
+                    000086A8    BF_ERRXP
+                    000086AA    BF_ERRFE
+                    000086AC    BF_ERRBP
+                    000086AE    BF_ERRFF
+                    000086B0    BF_ERRTE
+                    000086B2    BF_ERRBN
+                    000086B4    BF_ERRDF
+                    000086B6    BF_ERREF
+                    000086B8    BF_ERRIU
+                    000086BA    BF_ERREX
+                    000086BC    BF_ERRNF
+                    000086BE    BF_ERRNO
+                    000086C0    BF_ERRBO
+                    000086C2    BF_ERROR
+                    000086C4    BF_ERROM
+                    000086C6    BF_ERRNJ
+                    000086C8    BF_ERRNC
+                    000086D6    BF_ERLIN
+                    000086DC    BF_ERNUM
+                    00008700    BF_FLLIN
+
+SECTION   0000870E  000087C8                                             BF_DATE
+
+          0000870E  000087C8  SRC_MINERVA_BF_DATE
+                    0000870E    BF_DATE
+                    00008710    BF_DAYS
+                    00008712    BF_DATES
+                    00008714    BP_ADATE
+                    00008716    BP_SDATE
+                    0000877E    BF_DATEZ
+
+SECTION   000087C8  00008800                                            BF_KEYRW
+
+          000087C8  00008800  SRC_MINERVA_BF_KEYRW
+                    000087C8    BF_KEYRW
+                    000087F8    BF_IPCOM
+
+SECTION   00008800  00008AB8                                             BF_MOST
+
+          00008800  00008AB8  SRC_MINERVA_BF_MOST
+                    00008800    BF_SIN
+                    00008804    BF_COS
+                    00008808    BF_TAN
+                    0000880C    BF_COT
+                    00008810    BF_ASIN
+                    00008814    BF_ACOS
+                    00008818    BF_EXP
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  38
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    0000881C    BF_LN
+                    00008820    BF_LOG10
+                    00008824    BF_SQRT
+                    00008828    BF_ABS
+                    00008830    BF_PI
+                    00008840    BF_ACOT
+                    00008842    BF_ATAN
+                    00008876    BF_DEG
+                    0000887A    BF_RAD
+                    0000889C    BF_RND
+                    00008904    BF_INT
+                    0000890E    BF_PEEKL
+                    00008910    BF_PEEKW
+                    00008912    BF_PEEK
+                    0000893E    BF_RESPR
+                    00008950    BF_BEEPG
+                    00008966    BF_EOF
+                    00008986    BF_VERS
+                    000089C4    BP_PAUSE
+                    000089C6    BF_INKES
+                    00008A24    BF_CHRS
+                    00008A46    BF_FILLS
+                    00008A7C    BF_LEN
+                    00008A82    BF_CODE
+                    00008A8C    BF_DIMN
+
+SECTION   00008AB8  00008BD6                                            IB_ERROR
+
+          00008AB8  00008BD6  SRC_MINERVA_IB_ERROR
+                    00008AB8    IB_PSERR
+                    00008AE8    IB_ERNOL
+                    00008AF2    IB_ERROR
+                    00008B66    IB_ERRNC
+                    00008B86    IB_ERREP
+
+SECTION   00008BD6  00008D14                                             IB_WHEN
+
+          00008BD6  00008D14  SRC_MINERVA_IB_WHEN
+                    00008BE8    IB_WHEN
+                    00008C04    IB_WHZAP
+                    00008CB2    IB_WHDEL
+                    00008CDA    IB_WHRNM
+
+SECTION   00008D14  00008E6C                                            IB_GOLIN
+
+          00008D14  00008E6C  SRC_MINERVA_IB_GOLIN
+                    00008D14    IB_GOLIN
+                    00008D42    IB_NXTK
+                    00008D84    IB_GLIN0
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  39
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    00008D8C    IB_GLIN1
+
+SECTION   00008E6C  00009182                                             IB_CALL
+
+          00008E6C  00009182  SRC_MINERVA_IB_CALL
+                    00008E6C    IB_BPROC
+                    00008E6E    IB_CALL
+                    00008FE0    IB_CHEOS
+                    0000903A    IB_RET
+                    00009114    IB_UNRET
+
+SECTION   00009182  0000928C                                            IB_NPASS
+
+          00009182  0000928C  SRC_MINERVA_IB_NPASS
+                    00009182    IB_NPASS
+                    00009208    IB_S4NON
+                    0000920A    IB_S2NON
+                    0000920C    IB_NXNON
+                    0000925E    IB_NXNAM
+                    00009264    IB_NXCOM
+
+SECTION   0000928C  00009396                                            IB_START
+
+          0000928C  00009396  SRC_MINERVA_IB_START
+                    00009290    IB_START
+                    000092A0    IB_STSNG
+                    000092A4    IB_STIMM
+                    000092CE    IB_ST2
+                    000092F0    IB_ST1
+                    0000934A    IB_STBAS
+                    00009356    IB_STNXL
+                    0000935A    IB_STNXI
+                    00009384    IB_STEOF
+
+SECTION   00009396  00009440                                             IB_GOST
+
+          00009396  00009440  SRC_MINERVA_IB_GOST
+                    0000939C    IB_GOST
+                    000093A8    IB_NXST
+                    000093FC    IB_EOS
+
+SECTION   00009440  00009496                                              IB_END
+
+          00009440  00009496  SRC_MINERVA_IB_END
+                    00009440    IB_END
+                    00009486    IB_ENDW
+
+SECTION   00009496  00009526                                              IB_LET
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  40
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+          00009496  00009526  SRC_MINERVA_IB_LET
+                    00009496    IB_LET
+
+SECTION   00009526  000095FE                                            IB_ARRAY
+
+          00009526  000095FE  SRC_MINERVA_IB_ARRAY
+                    0000952A    IB_ARRAY
+
+SECTION   000095FE  0000968E                                            IB_SYMBL
+
+          000095FE  0000968E  SRC_MINERVA_IB_SYMBL
+                    000095FE    IB_ON
+                    0000961A    IB_SYMBL
+                    0000965C    IB_FCHK
+
+SECTION   0000968E  00009808                                              IB_SEL
+
+          0000968E  00009808  SRC_MINERVA_IB_SEL
+                    0000968E    IB_SEL
+
+SECTION   00009808  0000982A                                            IB_RESTR
+
+          00009808  0000982A  SRC_MINERVA_IB_RESTR
+                    00009808    IB_RESTR
+
+SECTION   0000982A  00009860                                             IB_NAME
+
+          0000982A  00009860  SRC_MINERVA_IB_NAME
+                    0000982A    IB_NAME
+                    00009834    IB_NAME1
+
+SECTION   00009860  000099E8                                            IB_WSCAN
+
+          00009860  000099E8  SRC_MINERVA_IB_WSCAN
+                    00009898    IB_WSCAN
+                    000098B0    IB_WSCNX
+                    00009936    IB_WTEST
+                    000099B8    IB_EWRET
+
+SECTION   000099E8  00009D12                                             IB_NEXT
+
+          000099E8  00009D12  SRC_MINERVA_IB_NEXT
+                    00009A60    IB_NEXT
+                    00009A6A    IB_PSEND
+                    00009A7A    IB_LOOP
+                    00009B68    IB_FRNGE
+                    00009CD2    IB_GTLPL
+                    00009CEC    IB_INDEX
+                    00009D04    IB_FNAME
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  41
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+
+SECTION   00009D12  00009DC0                                             IB_PROC
+
+          00009D12  00009DC0  SRC_MINERVA_IB_PROC
+                    00009D12    IB_PROC
+
+SECTION   00009DC0  00009DDE                                              IB_DEF
+
+          00009DC0  00009DDE  SRC_MINERVA_IB_DEF
+                    00009DC0    IB_DEF
+                    00009DC2    IB_DEF1
+
+SECTION   00009DDE  00009DFC                                            IB_CHINL
+
+          00009DDE  00009DFC  SRC_MINERVA_IB_CHINL
+                    00009DDE    IB_CHINL
+
+SECTION   00009DFC  00009F1A                                              IB_DIM
+
+          00009DFC  00009F1A  SRC_MINERVA_IB_DIM
+                    00009DFC    IB_DIM
+                    00009E32    IB_MKDIM
+                    00009EB6    IB_FRDIM
+                    00009ECC    IB_FRDES
+
+SECTION   00009F1A  00009FA6                                             IB_EXIT
+
+          00009F1A  00009FA6  SRC_MINERVA_IB_EXIT
+                    00009F1A    IB_EXIT
+                    00009F46    IB_FEND
+
+SECTION   00009FA6  0000A086                                              IB_FOR
+
+          00009FA6  0000A086  SRC_MINERVA_IB_FOR
+                    00009FA6    IB_REP
+                    00009FAE    IB_FOR
+
+SECTION   0000A086  0000A0E4                                             IB_GOTO
+
+          0000A086  0000A0E4  SRC_MINERVA_IB_GOTO
+                    0000A086    IB_GOTO
+                    0000A08A    IB_ONGO
+
+SECTION   0000A0E4  0000A172                                               IB_IF
+
+          0000A0E4  0000A172  SRC_MINERVA_IB_IF
+                    0000A0E4    IB_IF
+                    0000A136    IB_ELSE
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  42
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+SECTION   0000A172  0000A1CA                                            IB_KYWRD
+
+          0000A172  0000A1CA  SRC_MINERVA_IB_KYWRD
+                    0000A1B0    IB_KYWRD
+
+SECTION   0000A1CA  0000A34C                                             IB_STOP
+
+          0000A1CA  0000A34C  SRC_MINERVA_IB_STOP
+                    0000A1DE    IB_STOP
+                    0000A29C    IB_CLVV
+                    000062D4    IB$NEW
+
+SECTION   0000A34C  0000A3FA                                            GW_PIXEL
+
+          0000A34C  0000A3FA  SRC_MINERVA_GW_PIXEL
+                    0000A34C    GW_PIXEL
+
+SECTION   0000A3FA  0000A440                                            GW_PIXAD
+
+          0000A3FA  0000A440  SRC_MINERVA_GW_PIXAD
+                    0000A3FA    GW_PIXAD
+
+SECTION   0000A440  0000A4CE                                            GW_CHOCT
+
+          0000A440  0000A4CE  SRC_MINERVA_GW_CHOCT
+                    0000A440    GW_CHOCT
+
+SECTION   0000A4CE  0000A5B0                                             GW_PITT
+
+          0000A4CE  0000A5B0  SRC_MINERVA_GW_PITT
+                    0000A4CE    GW_PITT
+
+SECTION   0000A5B0  0000A62C                                            GW_TRANS
+
+          0000A5B0  0000A62C  SRC_MINERVA_GW_TRANS
+                    0000A5B0    GW_TRANS
+
+SECTION   0000A62C  0000A87A                                              GW_FIG
+
+          0000A62C  0000A87A  SRC_MINERVA_GW_FIG
+                    0000A62C    GW_FIG
+                    0000A678    GW_PSORG
+                    0000A686    GW_PSCAL
+                    0000A69C    GW_ASP
+
+SECTION   0000A87A  0000A8C6                                            GW_FLOOD
+
+          0000A87A  0000A8C6  SRC_MINERVA_GW_FLOOD
+                    0000A87A    GW_FLOOF
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  43
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+                    0000A87C    GW_FLOOD
+
+SECTION   0000A8C6  0000A8D4                                            GW_SCALE
+
+          0000A8C6  0000A8D4  SRC_MINERVA_GW_SCALE
+                    0000A8C6    GW_SCALE
+
+SECTION   0000A8D4  0000A920                                             GW_GCUR
+
+          0000A8D4  0000A920  SRC_MINERVA_GW_GCUR
+                    0000A8D4    GW_GCUR
+
+SECTION   0000A920  0000AAA0                                             CS_CHAR
+
+          0000A920  0000AAA0  SRC_MINERVA_CS_CHAR
+                    0000A920    CS_CHAR
+
+SECTION   0000AAA0  0000AB14                                            CS_COLOR
+
+          0000AAA0  0000AB14  SRC_MINERVA_CS_COLOR
+                    0000AAA0    CS_COLOR
+                    0000AADE    CS_PLAIN
+
+SECTION   0000AB14  0000AD96                                             CS_AREA
+
+          0000AB14  0000AD96  SRC_MINERVA_CS_AREA
+                    0000AB76    CS_OVER
+                    0000AB8A    CS_RECOL
+                    0000ABA8    CS_SCROL
+                    0000ABE6    CS_FILL
+                    0000ABF2    CS_PAN
+
+SECTION   0000AD96  0000AE52                                            II_CLOCK
+
+          0000AD96  0000AE52  SRC_MINERVA_II_CLOCK
+                    0000AD96    II_CLOCK
+
+SECTION   0000AE52  0000B008                                            II_DRIVE
+
+          0000AE52  0000B008  SRC_MINERVA_II_DRIVE
+                    00006E5A    II$DRIVE
+                    00006E62    II$RAW
+
+SECTION   0000B008  0000B106                                            TB_MULTI
+
+          0000B008  0000B106  SRC_MINERVA_TB_MULTI
+                    0000B009    TB_MULTI
+                    0000B106    TB_MULTX
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  44
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Type      Start     End       Module/entry                          Section name
+================================================================================
+
+SECTION   0000B106  0000B354                                            TB_KBENC
+
+          0000B106  0000B354  SRC_MINERVA_TB_KBENC_GERMAN
+                    0000B1AA    TB_KBENC
+
+SECTION   0000B354  0000B354                                              TB_KBD
+
+          0000B354  0000B354  SRC_MINERVA_TB_KBD
+
+SECTION   0000B354  0000B37C                                             TB_ITRN
+
+          0000B354  0000B37C  SRC_MINERVA_TB_ITRN
+                    0000B354    TB_ITRN
+
+SECTION   0000B37C  0000B3CC                                             TB_OTRN
+
+          0000B37C  0000B3CC  SRC_MINERVA_TB_OTRN
+                    0000B37C    TB_OTRN
+
+SECTION   0000B3CC  0000B3D0                                              TB_TRN
+
+          0000B3CC  0000B3D0  SRC_MINERVA_TB_TRN
+                    0000B3CC    TB_TRN
+
+SECTION   0000B3D0  0000B40C                                              TB_MSG
+
+          0000B3D0  0000B40C  SRC_MINERVA_TB_MSG_GERMAN
+                    0000B3D0    TB_MSG
+
+SECTION   0000B40C  0000B68C                                              TB_TXT
+
+          0000B40C  0000B68C  SRC_MINERVA_TB_MSG_GERMAN
+
+SECTION   0000B68C  0000B9F8                                               TB_F0
+
+          0000B68C  0000B9F8  SRC_MINERVA_TB_F0
+                    0000B68C    TB_F0
+
+SECTION   0000B9F8  0000BF9A                                               TB_F1
+
+          0000B9F8  0000BF9A  SRC_MINERVA_TB_F1
+                    0000B9F8    TB_F1
+                    0000BF0A    TB_HEX
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  45
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Load map - continued
+====================
+
+Absolute symbols (sorted by value) :
+====================================
+
+                    31473938    MIN_VERS
+
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  46
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table
+============
+
+Address   Symbol              Section             Module
+========================================================
+
+00008828  BF_ABS              BF_MOST             SRC_MINERVA_BF_MOST 
+00008814  BF_ACOS             BF_MOST             SRC_MINERVA_BF_MOST 
+00008840  BF_ACOT             BF_MOST             SRC_MINERVA_BF_MOST 
+00008810  BF_ASIN             BF_MOST             SRC_MINERVA_BF_MOST 
+00008842  BF_ATAN             BF_MOST             SRC_MINERVA_BF_MOST 
+00008950  BF_BEEPG            BF_MOST             SRC_MINERVA_BF_MOST 
+00008A24  BF_CHRS             BF_MOST             SRC_MINERVA_BF_MOST 
+00008A82  BF_CODE             BF_MOST             SRC_MINERVA_BF_MOST 
+00008804  BF_COS              BF_MOST             SRC_MINERVA_BF_MOST 
+0000880C  BF_COT              BF_MOST             SRC_MINERVA_BF_MOST 
+0000870E  BF_DATE             BF_DATE             SRC_MINERVA_BF_DATE 
+00008712  BF_DATES            BF_DATE             SRC_MINERVA_BF_DATE 
+0000877E  BF_DATEZ            BF_DATE             SRC_MINERVA_BF_DATE 
+00008710  BF_DAYS             BF_DATE             SRC_MINERVA_BF_DATE 
+00008876  BF_DEG              BF_MOST             SRC_MINERVA_BF_MOST 
+00008A8C  BF_DIMN             BF_MOST             SRC_MINERVA_BF_MOST 
+00008966  BF_EOF              BF_MOST             SRC_MINERVA_BF_MOST 
+000086D6  BF_ERLIN            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086DC  BF_ERNUM            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086A0  BF_ERRBL            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086B2  BF_ERRBN            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086C0  BF_ERRBO            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086AC  BF_ERRBP            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086B4  BF_ERRDF            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086B6  BF_ERREF            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086BA  BF_ERREX            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086AA  BF_ERRFE            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086AE  BF_ERRFF            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086B8  BF_ERRIU            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086C8  BF_ERRNC            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086BC  BF_ERRNF            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086A4  BF_ERRNI            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086C6  BF_ERRNJ            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086BE  BF_ERRNO            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086C4  BF_ERROM            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086C2  BF_ERROR            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086A6  BF_ERROV            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086A2  BF_ERRRO            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086B0  BF_ERRTE            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000086A8  BF_ERRXP            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+00008818  BF_EXP              BF_MOST             SRC_MINERVA_BF_MOST 
+00008A46  BF_FILLS            BF_MOST             SRC_MINERVA_BF_MOST 
+00008700  BF_FLLIN            BF_ERFUN            SRC_MINERVA_BF_ERFUN 
+000089C6  BF_INKES            BF_MOST             SRC_MINERVA_BF_MOST 
+00008904  BF_INT              BF_MOST             SRC_MINERVA_BF_MOST 
+000087F8  BF_IPCOM            BF_KEYRW            SRC_MINERVA_BF_KEYRW 
+000087C8  BF_KEYRW            BF_KEYRW            SRC_MINERVA_BF_KEYRW 
+00008A7C  BF_LEN              BF_MOST             SRC_MINERVA_BF_MOST 
+0000881C  BF_LN               BF_MOST             SRC_MINERVA_BF_MOST 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  47
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+00008820  BF_LOG10            BF_MOST             SRC_MINERVA_BF_MOST 
+00008912  BF_PEEK             BF_MOST             SRC_MINERVA_BF_MOST 
+0000890E  BF_PEEKL            BF_MOST             SRC_MINERVA_BF_MOST 
+00008910  BF_PEEKW            BF_MOST             SRC_MINERVA_BF_MOST 
+00008830  BF_PI               BF_MOST             SRC_MINERVA_BF_MOST 
+0000887A  BF_RAD              BF_MOST             SRC_MINERVA_BF_MOST 
+0000893E  BF_RESPR            BF_MOST             SRC_MINERVA_BF_MOST 
+0000889C  BF_RND              BF_MOST             SRC_MINERVA_BF_MOST 
+00008800  BF_SIN              BF_MOST             SRC_MINERVA_BF_MOST 
+00008824  BF_SQRT             BF_MOST             SRC_MINERVA_BF_MOST 
+00008808  BF_TAN              BF_MOST             SRC_MINERVA_BF_MOST 
+00008986  BF_VERS             BF_MOST             SRC_MINERVA_BF_MOST 
+FFFFE502  BP$CHAN             BP_CHAN             SRC_MINERVA_BP_CHAN 
+FFFFE504  BP$CHAND            BP_CHAN             SRC_MINERVA_BP_CHAN 
+FFFFE4D6  BP$CHNEW            BP_CHAN             SRC_MINERVA_BP_CHAN 
+FFFFE52C  BP$CHNID            BP_CHAN             SRC_MINERVA_BP_CHAN 
+FFFFE2C6  BP$FNAME            BP_FILES            SRC_MINERVA_BP_FILES 
+00008714  BP_ADATE            BF_DATE             SRC_MINERVA_BF_DATE 
+00002D66  BP_ALVV             BP_LET              SRC_MINERVA_BP_LET 
+0000207E  BP_ARC              BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+0000207C  BP_ARCR             BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+00002BA6  BP_AREND            BP_READ             SRC_MINERVA_BP_READ 
+00002C12  BP_ARIND            BP_READ             SRC_MINERVA_BP_READ 
+00002B7A  BP_ARNXT            BP_READ             SRC_MINERVA_BP_READ 
+00002B5A  BP_ARSET            BP_READ             SRC_MINERVA_BP_READ 
+00001AB0  BP_AT               BP_WINDW            SRC_MINERVA_BP_WINDW 
+00002E5C  BP_AUTO             BP_RENUM            SRC_MINERVA_BP_RENUM 
+00001C14  BP_BAUD             BP_MISC             SRC_MINERVA_BP_MISC 
+0000254A  BP_BEEP             BP_BEEP             SRC_MINERVA_BP_BEEP 
+000019EA  BP_BLOCK            BP_WINDW            SRC_MINERVA_BP_WINDW 
+000019EC  BP_BORDR            BP_WINDW            SRC_MINERVA_BP_WINDW 
+00001BBE  BP_CALL             BP_MISC             SRC_MINERVA_BP_MISC 
+00002502  BP_CHAN             BP_CHAN             SRC_MINERVA_BP_CHAN 
+00002504  BP_CHAND            BP_CHAN             SRC_MINERVA_BP_CHAN 
+00003290  BP_CHKLS            BP_LIST             SRC_MINERVA_BP_LIST 
+000024D6  BP_CHNEW            BP_CHAN             SRC_MINERVA_BP_CHAN 
+0000252C  BP_CHNID            BP_CHAN             SRC_MINERVA_BP_CHAN 
+00002CE8  BP_CHUNR            BP_STOP             SRC_MINERVA_BP_STOP 
+0000208C  BP_CIRCE            BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+0000208A  BP_CIRCR            BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+00002CC4  BP_CLEAR            BP_STOP             SRC_MINERVA_BP_STOP 
+00002442  BP_CLOSE            BP_FILES            SRC_MINERVA_BP_FILES 
+00001ACE  BP_CLS              BP_WINDW            SRC_MINERVA_BP_WINDW 
+00002CFE  BP_COMCH            BP_STOP             SRC_MINERVA_BP_STOP 
+00002C5C  BP_CONTE            BP_STOP             SRC_MINERVA_BP_STOP 
+00002C70  BP_CONTI            BP_STOP             SRC_MINERVA_BP_STOP 
+000023D4  BP_COPY             BP_FILES            SRC_MINERVA_BP_FILES 
+000023D2  BP_COPYN            BP_FILES            SRC_MINERVA_BP_FILES 
+00001AAE  BP_CSIZE            BP_WINDW            SRC_MINERVA_BP_WINDW 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  48
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+00001AC2  BP_CURSR            BP_WINDW            SRC_MINERVA_BP_WINDW 
+00003524  BP_DATA             BP_DATA             SRC_MINERVA_BP_DATA 
+00002294  BP_DELEE            BP_FILES            SRC_MINERVA_BP_FILES 
+000032AE  BP_DETOK            BP_LIST             SRC_MINERVA_BP_LIST 
+0000233E  BP_DIR              BP_FILES            SRC_MINERVA_BP_FILES 
+00003102  BP_DLINE            BP_LIST             SRC_MINERVA_BP_LIST 
+00002E5E  BP_EDIT             BP_RENUM            SRC_MINERVA_BP_RENUM 
+0000208C  BP_ELLIE            BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+0000208A  BP_ELLIR            BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+00002116  BP_EXEC             BP_FILES            SRC_MINERVA_BP_FILES 
+00002114  BP_EXECW            BP_FILES            SRC_MINERVA_BP_FILES 
+00001A9E  BP_FILL             BP_WINDW            SRC_MINERVA_BP_WINDW 
+00001A80  BP_FLASH            BP_WINDW            SRC_MINERVA_BP_WINDW 
+00002312  BP_FOPIN            BP_FILES            SRC_MINERVA_BP_FILES 
+0000238A  BP_FORMT            BP_FILES            SRC_MINERVA_BP_FILES 
+00002034  BP_GCUR             BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+00003196  BP_GINT             BP_LIST             SRC_MINERVA_BP_LIST 
+000030F2  BP_GSEP             BP_LIST             SRC_MINERVA_BP_LIST 
+000025CC  BP_INIT             BP_INIT             SRC_MINERVA_BP_INIT 
+000025C8  BP_INIT0            BP_INIT             SRC_MINERVA_BP_INIT 
+00001A4A  BP_INK              BP_WINDW            SRC_MINERVA_BP_WINDW 
+00001C4A  BP_INPUT            BP_PRINT            SRC_MINERVA_BP_PRINT 
+0000221E  BP_LBYTS            BP_FILES            SRC_MINERVA_BP_FILES 
+00002D12  BP_LET              BP_LET              SRC_MINERVA_BP_LET 
+00002070  BP_LINE             BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+0000206E  BP_LINER            BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+00003108  BP_LIST             BP_LIST             SRC_MINERVA_BP_LIST 
+000031BA  BP_LIST2            BP_LIST             SRC_MINERVA_BP_LIST 
+00003110  BP_LISTD            BP_LIST             SRC_MINERVA_BP_LIST 
+00003240  BP_LISTE            BP_LIST             SRC_MINERVA_BP_LIST 
+000032C6  BP_LISTF            BP_LIST             SRC_MINERVA_BP_LIST 
+000031B6  BP_LISTR            BP_LIST             SRC_MINERVA_BP_LIST 
+00002C9C  BP_LOAD             BP_STOP             SRC_MINERVA_BP_STOP 
+00002CB0  BP_LRUN             BP_STOP             SRC_MINERVA_BP_STOP 
+00003298  BP_LSQZP            BP_LIST             SRC_MINERVA_BP_LIST 
+0000329C  BP_LSZAP            BP_LIST             SRC_MINERVA_BP_LIST 
+00002CAA  BP_MERGE            BP_STOP             SRC_MINERVA_BP_STOP 
+00001B8A  BP_MODE             BP_MISC             SRC_MINERVA_BP_MISC 
+00001AF6  BP_MOVE             BP_TURTL            SRC_MINERVA_BP_TURTL 
+00002CAC  BP_MRUN             BP_STOP             SRC_MINERVA_BP_STOP 
+00001BAC  BP_NET              BP_MISC             SRC_MINERVA_BP_MISC 
+00002C78  BP_NEW              BP_STOP             SRC_MINERVA_BP_STOP 
+00002488  BP_OPEN             BP_FILES            SRC_MINERVA_BP_FILES 
+00002486  BP_OPENN            BP_FILES            SRC_MINERVA_BP_FILES 
+00002484  BP_OPENW            BP_FILES            SRC_MINERVA_BP_FILES 
+00001A7C  BP_OVER             BP_WINDW            SRC_MINERVA_BP_WINDW 
+00001AD0  BP_PAN              BP_WINDW            SRC_MINERVA_BP_WINDW 
+00001A48  BP_PAPER            BP_WINDW            SRC_MINERVA_BP_WINDW 
+000089C4  BP_PAUSE            BF_MOST             SRC_MINERVA_BF_MOST 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  49
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+00001B2C  BP_PENDN            BP_TURTL            SRC_MINERVA_BP_TURTL 
+00001B2E  BP_PENUP            BP_TURTL            SRC_MINERVA_BP_TURTL 
+00001F66  BP_PEPO             BP_POKE             SRC_MINERVA_BP_POKE 
+00002068  BP_POINR            BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+0000206A  BP_POINT            BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+00001F62  BP_POKE             BP_POKE             SRC_MINERVA_BP_POKE 
+00001F5E  BP_POKEL            BP_POKE             SRC_MINERVA_BP_POKE 
+00001F60  BP_POKEW            BP_POKE             SRC_MINERVA_BP_POKE 
+00001C48  BP_PRINT            BP_PRINT            SRC_MINERVA_BP_PRINT 
+00001BE4  BP_RANDE            BP_MISC             SRC_MINERVA_BP_MISC 
+00001EDE  BP_RDBUF            BP_PRINT            SRC_MINERVA_BP_PRINT 
+00002ADC  BP_RDCHK            BP_READ             SRC_MINERVA_BP_READ 
+00002B14  BP_READ             BP_READ             SRC_MINERVA_BP_READ 
+00001A1E  BP_RECOL            BP_WINDW            SRC_MINERVA_BP_WINDW 
+00002E62  BP_RENUM            BP_RENUM            SRC_MINERVA_BP_RENUM 
+00001B6C  BP_REPOT            BP_MISC             SRC_MINERVA_BP_MISC 
+00002C52  BP_RETRY            BP_STOP             SRC_MINERVA_BP_STOP 
+00002C7E  BP_RUN              BP_STOP             SRC_MINERVA_BP_STOP 
+000022A0  BP_SAVE             BP_FILES            SRC_MINERVA_BP_FILES 
+0000226E  BP_SBYTS            BP_FILES            SRC_MINERVA_BP_FILES 
+00002056  BP_SCALE            BP_GRAFX            SRC_MINERVA_BP_GRAFX 
+00001AD2  BP_SCROL            BP_WINDW            SRC_MINERVA_BP_WINDW 
+00008716  BP_SDATE            BF_DATE             SRC_MINERVA_BF_DATE 
+0000226C  BP_SEXEC            BP_FILES            SRC_MINERVA_BP_FILES 
+00002C76  BP_STOP             BP_STOP             SRC_MINERVA_BP_STOP 
+00001A4C  BP_STRIP            BP_WINDW            SRC_MINERVA_BP_WINDW 
+00001C20  BP_TRA              BP_MISC             SRC_MINERVA_BP_MISC 
+00001AF8  BP_TURN             BP_TURTL            SRC_MINERVA_BP_TURTL 
+00001AFA  BP_TURNO            BP_TURTL            SRC_MINERVA_BP_TURTL 
+00001A7E  BP_UNDER            BP_WINDW            SRC_MINERVA_BP_WINDW 
+00001A3C  BP_WIDTH            BP_WINDW            SRC_MINERVA_BP_WINDW 
+000019EE  BP_WINDW            BP_WINDW            SRC_MINERVA_BP_WINDW 
+00004306  BV_ALVV             BV_ALVV             SRC_MINERVA_BV_ALVV 
+0000430E  BV_ALVVZ            BV_ALVV             SRC_MINERVA_BV_ALVV 
+00004196  BV_CHBFX            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+0000417E  BV_CHBT             BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+000041A6  BV_CHCHX            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+000041AA  BV_CHLNX            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+0000419E  BV_CHNLX            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+0000418A  BV_CHNT             BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+000041AE  BV_CHPFX            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+00004178  BV_CHRI             BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+0000417A  BV_CHRIX            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+00004190  BV_CHRT             BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+000041C0  BV_CHSS             BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+000041C4  BV_CHSSX            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+0000419A  BV_CHTKX            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+000041A2  BV_CHVVX            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+00004258  BV_CLEAR            BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  50
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+0000427E  BV_CLRT             BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+00004234  BV_DIE              BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+0000434A  BV_FRVV             BV_ALVV             SRC_MINERVA_BV_ALVV 
+00004064  BV_NAMEI            BV_NAMES            SRC_MINERVA_BV_NAMES 
+0000409E  BV_NAMES            BV_NAMES            SRC_MINERVA_BV_NAMES 
+00004254  BV_NEW              BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+0000422E  BV_OM               BV_CHSTK            SRC_MINERVA_BV_CHSTK 
+00004380  BV_UPLET            BV_UPNXT            SRC_MINERVA_BV_UPNXT 
+00004382  BV_UPMCF            BV_UPNXT            SRC_MINERVA_BV_UPNXT 
+0000437E  BV_UPNXT            BV_UPNXT            SRC_MINERVA_BV_UPNXT 
+00004386  BV_UPRNM            BV_UPNXT            SRC_MINERVA_BV_UPNXT 
+00004384  BV_UPSWP            BV_UPNXT            SRC_MINERVA_BV_UPNXT 
+00004040  BV_VTYPE            BV_VTYPE            SRC_MINERVA_BV_VTYPE 
+00000BE4  CA$CNVRT            CA_CNVRT            SRC_MINERVA_CA_CNVRT 
+0000103A  CA$EVAL             CA_EVAL             SRC_MINERVA_CA_EVAL 
+00000D12  CA$OPEXE            CA_OPEXE            SRC_MINERVA_CA_OPEXE 
+00004A90  CA_CARG             CA_CARG             SRC_MINERVA_CA_CARG 
+00005488  CA_CHKVV            CA_GARG             SRC_MINERVA_CA_GARG 
+00004B02  CA_CNCAT            CA_CNCAT            SRC_MINERVA_CA_CNCAT 
+00004BE4  CA_CNVRT            CA_CNVRT            SRC_MINERVA_CA_CNVRT 
+0000529A  CA_ETOS             CA_ETOS             SRC_MINERVA_CA_ETOS 
+0000503A  CA_EVAL             CA_EVAL             SRC_MINERVA_CA_EVAL 
+00005038  CA_EVALC            CA_EVAL             SRC_MINERVA_CA_EVAL 
+00005034  CA_EVALI            CA_EVAL             SRC_MINERVA_CA_EVAL 
+00005060  CA_EXPR             CA_EVAL             SRC_MINERVA_CA_EVAL 
+00004A50  CA_FRVAR            CA_CARG             SRC_MINERVA_CA_CARG 
+000053D2  CA_FUN              CA_FUN              SRC_MINERVA_CA_FUN 
+000054CC  CA_GARG             CA_GARG             SRC_MINERVA_CA_GARG 
+0000557C  CA_GTFP             CA_GTARG            SRC_MINERVA_CA_GTARG 
+00005558  CA_GTFP1            CA_GTARG            SRC_MINERVA_CA_GTARG 
+00005560  CA_GTIN1            CA_GTARG            SRC_MINERVA_CA_GTARG 
+00005578  CA_GTINT            CA_GTARG            SRC_MINERVA_CA_GTARG 
+00005550  CA_GTLI1            CA_GTARG            SRC_MINERVA_CA_GTARG 
+00005580  CA_GTLIN            CA_GTARG            SRC_MINERVA_CA_GTARG 
+0000555C  CA_GTST1            CA_GTARG            SRC_MINERVA_CA_GTARG 
+00005574  CA_GTSTR            CA_GTARG            SRC_MINERVA_CA_GTARG 
+0000560A  CA_INDX             CA_INDX             SRC_MINERVA_CA_INDX 
+00005230  CA_NEWNT            CA_EVAL             SRC_MINERVA_CA_EVAL 
+0000521A  CA_OLDNT            CA_EVAL             SRC_MINERVA_CA_EVAL 
+00004D12  CA_OPEXE            CA_OPEXE            SRC_MINERVA_CA_OPEXE 
+00005346  CA_PUTSS            CA_ETOS             SRC_MINERVA_CA_ETOS 
+000055C6  CA_RANGE            CA_INDX             SRC_MINERVA_CA_INDX 
+000057A8  CA_SSIND            CA_STIND            SRC_MINERVA_CA_STIND 
+00005730  CA_STIND            CA_STIND            SRC_MINERVA_CA_STIND 
+0000538C  CA_UNDO             CA_ETOS             SRC_MINERVA_CA_ETOS 
+00003B5E  CN_0TOD             CN_ITOS             SRC_MINERVA_CN_ITOS 
+00003B38  CN_BTOIB            CN_STON             SRC_MINERVA_CN_STON 
+00003B40  CN_BTOIL            CN_STON             SRC_MINERVA_CN_STON 
+00003B3C  CN_BTOIW            CN_STON             SRC_MINERVA_CN_STON 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  51
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+00003D44  CN_DATE             CN_DATE             SRC_MINERVA_CN_DATE 
+00003D76  CN_DAY              CN_DATE             SRC_MINERVA_CN_DATE 
+000039CC  CN_DTOF             CN_STON             SRC_MINERVA_CN_STON 
+00003AD0  CN_DTOI             CN_STON             SRC_MINERVA_CN_STON 
+00003BE6  CN_FTOD             CN_FTOD             SRC_MINERVA_CN_FTOD 
+00003AE2  CN_HTOIB            CN_STON             SRC_MINERVA_CN_STON 
+00003AEA  CN_HTOIL            CN_STON             SRC_MINERVA_CN_STON 
+00003AE6  CN_HTOIW            CN_STON             SRC_MINERVA_CN_STON 
+00003BCC  CN_ITOBB            CN_ITOS             SRC_MINERVA_CN_ITOS 
+00003BC4  CN_ITOBL            CN_ITOS             SRC_MINERVA_CN_ITOS 
+00003BC8  CN_ITOBW            CN_ITOS             SRC_MINERVA_CN_ITOS 
+00003B58  CN_ITOD             CN_ITOS             SRC_MINERVA_CN_ITOS 
+00003BA0  CN_ITOHB            CN_ITOS             SRC_MINERVA_CN_ITOS 
+00003B98  CN_ITOHL            CN_ITOS             SRC_MINERVA_CN_ITOS 
+00003B9C  CN_ITOHW            CN_ITOS             SRC_MINERVA_CN_ITOS 
+0000A920  CS_CHAR             CS_CHAR             SRC_MINERVA_CS_CHAR 
+0000AAA0  CS_COLOR            CS_COLOR            SRC_MINERVA_CS_COLOR 
+0000ABE6  CS_FILL             CS_AREA             SRC_MINERVA_CS_AREA 
+0000AB76  CS_OVER             CS_AREA             SRC_MINERVA_CS_AREA 
+0000ABF2  CS_PAN              CS_AREA             SRC_MINERVA_CS_AREA 
+0000AADE  CS_PLAIN            CS_COLOR            SRC_MINERVA_CS_COLOR 
+0000AB8A  CS_RECOL            CS_AREA             SRC_MINERVA_CS_AREA 
+0000ABA8  CS_SCROL            CS_AREA             SRC_MINERVA_CS_AREA 
+00007086  DD_MDV              DD_MDV              SRC_MINERVA_DD_MDV 
+00007684  DD_MDVBU            DD_MDVBU            SRC_MINERVA_DD_MDVBU 
+000073F6  DD_MDVCD            DD_MDVCL            SRC_MINERVA_DD_MDVCL 
+000073DE  DD_MDVCL            DD_MDVCL            SRC_MINERVA_DD_MDVCL 
+00007120  DD_MDVIO            DD_MDVIO            SRC_MINERVA_DD_MDVIO 
+000073EC  DD_MDVLU            DD_MDVCL            SRC_MINERVA_DD_MDVCL 
+0000784A  DD_MDVNB            DD_MDVBU            SRC_MINERVA_DD_MDVBU 
+0000723A  DD_MDVOP            DD_MDVOP            SRC_MINERVA_DD_MDVOP 
+0000710A  DD_MDVPD            DD_MDVIO            SRC_MINERVA_DD_MDVIO 
+00007592  DD_MDVRN            DD_MDVRN            SRC_MINERVA_DD_MDVRN 
+0000709E  DD_MDVRR            DD_MDVIO            SRC_MINERVA_DD_MDVIO 
+0000746A  DD_MDVSC            DD_MDVSC            SRC_MINERVA_DD_MDVSC 
+000073B6  DD_MDVTR            DD_MDVOP            SRC_MINERVA_DD_MDVOP 
+0000A69C  GW_ASP              GW_FIG              SRC_MINERVA_GW_FIG 
+0000A440  GW_CHOCT            GW_CHOCT            SRC_MINERVA_GW_CHOCT 
+0000A62C  GW_FIG              GW_FIG              SRC_MINERVA_GW_FIG 
+0000A87C  GW_FLOOD            GW_FLOOD            SRC_MINERVA_GW_FLOOD 
+0000A87A  GW_FLOOF            GW_FLOOD            SRC_MINERVA_GW_FLOOD 
+0000A8D4  GW_GCUR             GW_GCUR             SRC_MINERVA_GW_GCUR 
+0000A4CE  GW_PITT             GW_PITT             SRC_MINERVA_GW_PITT 
+0000A3FA  GW_PIXAD            GW_PIXAD            SRC_MINERVA_GW_PIXAD 
+0000A34C  GW_PIXEL            GW_PIXEL            SRC_MINERVA_GW_PIXEL 
+0000A686  GW_PSCAL            GW_FIG              SRC_MINERVA_GW_FIG 
+0000A678  GW_PSORG            GW_FIG              SRC_MINERVA_GW_FIG 
+0000A8C6  GW_SCALE            GW_SCALE            SRC_MINERVA_GW_SCALE 
+0000A5B0  GW_TRANS            GW_TRANS            SRC_MINERVA_GW_TRANS 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  52
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+000062D4  IB$NEW              IB_STOP             SRC_MINERVA_IB_STOP 
+0000952A  IB_ARRAY            IB_ARRAY            SRC_MINERVA_IB_ARRAY 
+00008E6C  IB_BPROC            IB_CALL             SRC_MINERVA_IB_CALL 
+00008E6E  IB_CALL             IB_CALL             SRC_MINERVA_IB_CALL 
+00008FE0  IB_CHEOS            IB_CALL             SRC_MINERVA_IB_CALL 
+00009DDE  IB_CHINL            IB_CHINL            SRC_MINERVA_IB_CHINL 
+0000A29C  IB_CLVV             IB_STOP             SRC_MINERVA_IB_STOP 
+00009DC0  IB_DEF              IB_DEF              SRC_MINERVA_IB_DEF 
+00009DC2  IB_DEF1             IB_DEF              SRC_MINERVA_IB_DEF 
+00009DFC  IB_DIM              IB_DIM              SRC_MINERVA_IB_DIM 
+0000A136  IB_ELSE             IB_IF               SRC_MINERVA_IB_IF 
+00009440  IB_END              IB_END              SRC_MINERVA_IB_END 
+00009486  IB_ENDW             IB_END              SRC_MINERVA_IB_END 
+000093FC  IB_EOS              IB_GOST             SRC_MINERVA_IB_GOST 
+00008AE8  IB_ERNOL            IB_ERROR            SRC_MINERVA_IB_ERROR 
+00008B86  IB_ERREP            IB_ERROR            SRC_MINERVA_IB_ERROR 
+00008B66  IB_ERRNC            IB_ERROR            SRC_MINERVA_IB_ERROR 
+00008AF2  IB_ERROR            IB_ERROR            SRC_MINERVA_IB_ERROR 
+000099B8  IB_EWRET            IB_WSCAN            SRC_MINERVA_IB_WSCAN 
+00009F1A  IB_EXIT             IB_EXIT             SRC_MINERVA_IB_EXIT 
+0000965C  IB_FCHK             IB_SYMBL            SRC_MINERVA_IB_SYMBL 
+00009F46  IB_FEND             IB_EXIT             SRC_MINERVA_IB_EXIT 
+00009D04  IB_FNAME            IB_NEXT             SRC_MINERVA_IB_NEXT 
+00009FAE  IB_FOR              IB_FOR              SRC_MINERVA_IB_FOR 
+00009ECC  IB_FRDES            IB_DIM              SRC_MINERVA_IB_DIM 
+00009EB6  IB_FRDIM            IB_DIM              SRC_MINERVA_IB_DIM 
+00009B68  IB_FRNGE            IB_NEXT             SRC_MINERVA_IB_NEXT 
+00008D84  IB_GLIN0            IB_GOLIN            SRC_MINERVA_IB_GOLIN 
+00008D8C  IB_GLIN1            IB_GOLIN            SRC_MINERVA_IB_GOLIN 
+00008D14  IB_GOLIN            IB_GOLIN            SRC_MINERVA_IB_GOLIN 
+0000939C  IB_GOST             IB_GOST             SRC_MINERVA_IB_GOST 
+0000A086  IB_GOTO             IB_GOTO             SRC_MINERVA_IB_GOTO 
+00009CD2  IB_GTLPL            IB_NEXT             SRC_MINERVA_IB_NEXT 
+0000A0E4  IB_IF               IB_IF               SRC_MINERVA_IB_IF 
+00009CEC  IB_INDEX            IB_NEXT             SRC_MINERVA_IB_NEXT 
+0000A1B0  IB_KYWRD            IB_KYWRD            SRC_MINERVA_IB_KYWRD 
+00009496  IB_LET              IB_LET              SRC_MINERVA_IB_LET 
+00009A7A  IB_LOOP             IB_NEXT             SRC_MINERVA_IB_NEXT 
+00009E32  IB_MKDIM            IB_DIM              SRC_MINERVA_IB_DIM 
+0000982A  IB_NAME             IB_NAME             SRC_MINERVA_IB_NAME 
+00009834  IB_NAME1            IB_NAME             SRC_MINERVA_IB_NAME 
+00009A60  IB_NEXT             IB_NEXT             SRC_MINERVA_IB_NEXT 
+00009182  IB_NPASS            IB_NPASS            SRC_MINERVA_IB_NPASS 
+00009264  IB_NXCOM            IB_NPASS            SRC_MINERVA_IB_NPASS 
+0000925E  IB_NXNAM            IB_NPASS            SRC_MINERVA_IB_NPASS 
+0000920C  IB_NXNON            IB_NPASS            SRC_MINERVA_IB_NPASS 
+000093A8  IB_NXST             IB_GOST             SRC_MINERVA_IB_GOST 
+00008D42  IB_NXTK             IB_GOLIN            SRC_MINERVA_IB_GOLIN 
+000095FE  IB_ON               IB_SYMBL            SRC_MINERVA_IB_SYMBL 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  53
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+0000A08A  IB_ONGO             IB_GOTO             SRC_MINERVA_IB_GOTO 
+00009D12  IB_PROC             IB_PROC             SRC_MINERVA_IB_PROC 
+00009A6A  IB_PSEND            IB_NEXT             SRC_MINERVA_IB_NEXT 
+00008AB8  IB_PSERR            IB_ERROR            SRC_MINERVA_IB_ERROR 
+00009FA6  IB_REP              IB_FOR              SRC_MINERVA_IB_FOR 
+00009808  IB_RESTR            IB_RESTR            SRC_MINERVA_IB_RESTR 
+0000903A  IB_RET              IB_CALL             SRC_MINERVA_IB_CALL 
+0000920A  IB_S2NON            IB_NPASS            SRC_MINERVA_IB_NPASS 
+00009208  IB_S4NON            IB_NPASS            SRC_MINERVA_IB_NPASS 
+0000968E  IB_SEL              IB_SEL              SRC_MINERVA_IB_SEL 
+000092F0  IB_ST1              IB_START            SRC_MINERVA_IB_START 
+000092CE  IB_ST2              IB_START            SRC_MINERVA_IB_START 
+00009290  IB_START            IB_START            SRC_MINERVA_IB_START 
+0000934A  IB_STBAS            IB_START            SRC_MINERVA_IB_START 
+00009384  IB_STEOF            IB_START            SRC_MINERVA_IB_START 
+000092A4  IB_STIMM            IB_START            SRC_MINERVA_IB_START 
+0000935A  IB_STNXI            IB_START            SRC_MINERVA_IB_START 
+00009356  IB_STNXL            IB_START            SRC_MINERVA_IB_START 
+0000A1DE  IB_STOP             IB_STOP             SRC_MINERVA_IB_STOP 
+000092A0  IB_STSNG            IB_START            SRC_MINERVA_IB_START 
+0000961A  IB_SYMBL            IB_SYMBL            SRC_MINERVA_IB_SYMBL 
+00009114  IB_UNRET            IB_CALL             SRC_MINERVA_IB_CALL 
+00008CB2  IB_WHDEL            IB_WHEN             SRC_MINERVA_IB_WHEN 
+00008BE8  IB_WHEN             IB_WHEN             SRC_MINERVA_IB_WHEN 
+00008CDA  IB_WHRNM            IB_WHEN             SRC_MINERVA_IB_WHEN 
+00008C04  IB_WHZAP            IB_WHEN             SRC_MINERVA_IB_WHEN 
+00009898  IB_WSCAN            IB_WSCAN            SRC_MINERVA_IB_WSCAN 
+000098B0  IB_WSCNX            IB_WSCAN            SRC_MINERVA_IB_WSCAN 
+00009936  IB_WTEST            IB_WSCAN            SRC_MINERVA_IB_WSCAN 
+00006E5A  II$DRIVE            II_DRIVE            SRC_MINERVA_II_DRIVE 
+00006E62  II$RAW              II_DRIVE            SRC_MINERVA_II_DRIVE 
+0000AD96  II_CLOCK            II_CLOCK            SRC_MINERVA_II_CLOCK 
+FFFFCB82  IO$QSETL            IO_QUEUE            SRC_MINERVA_IO_QUEUE 
+0000093C  IO_CHANX            IO_CHANX            SRC_MINERVA_IO_CHANX 
+00000976  IO_FDRIV            IO_FDRIV            SRC_MINERVA_IO_FDRIV 
+000009DC  IO_FOPEN            IO_FOPEN            SRC_MINERVA_IO_FOPEN 
+00000C08  IO_JBCHK            IO_SCHED            SRC_MINERVA_IO_SCHED 
+00000AE6  IO_NAME             IO_NAME             SRC_MINERVA_IO_NAME 
+00000C04  IO_QEOF             IO_QUEUE            SRC_MINERVA_IO_QUEUE 
+00000BC8  IO_QIN              IO_QUEUE            SRC_MINERVA_IO_QUEUE 
+00000BE8  IO_QOUT             IO_QUEUE            SRC_MINERVA_IO_QUEUE 
+00000B78  IO_QSET             IO_QUEUE            SRC_MINERVA_IO_QUEUE 
+00000B82  IO_QSETL            IO_QUEUE            SRC_MINERVA_IO_QUEUE 
+00000B94  IO_QTEST            IO_QUEUE            SRC_MINERVA_IO_QUEUE 
+00000A4E  IO_RELCH            IO_FOPEN            SRC_MINERVA_IO_FOPEN 
+00000CAA  IO_RELIO            IO_SERIO            SRC_MINERVA_IO_SERIO 
+00000C22  IO_SCHED            IO_SCHED            SRC_MINERVA_IO_SCHED 
+00000CA8  IO_SERIO            IO_SERIO            SRC_MINERVA_IO_SERIO 
+000063EA  IO_SERQ             OD_PIPE             SRC_MINERVA_OD_PIPE 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  54
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+00000D7A  IO_TRAP2            IO_TRAP2            SRC_MINERVA_IO_TRAP2 
+00000E60  IO_TRAP3            IO_TRAP3            SRC_MINERVA_IO_TRAP3 
+00000F28  IO_TRAP4            IO_TRAP4            SRC_MINERVA_IO_TRAP4 
+FFFFD0EE  IP$KBEND            IP_KBRD             SRC_MINERVA_IP_KBRD 
+FFFFD0DA  IP$KBRD             IP_KBRD             SRC_MINERVA_IP_KBRD 
+00000FBA  IP_ADCMD            IP_INT              SRC_MINERVA_IP_INT 
+000011E6  IP_DSPM             IP_KBRD             SRC_MINERVA_IP_KBRD 
+00000F4E  IP_IPCR             IP_INT              SRC_MINERVA_IP_INT 
+000010EE  IP_KBEND            IP_KBRD             SRC_MINERVA_IP_KBRD 
+000010DA  IP_KBRD             IP_KBRD             SRC_MINERVA_IP_KBRD 
+00000F42  IP_POLL             IP_INT              SRC_MINERVA_IP_INT 
+00000FBE  IP_RDWR             IP_INT              SRC_MINERVA_IP_INT 
+00001034  IP_SCHED            IP_INT              SRC_MINERVA_IP_INT 
+00000FAE  IP_SETAD            IP_INT              SRC_MINERVA_IP_INT 
+00001046  IP_TXQO             IP_INT              SRC_MINERVA_IP_INT 
+00000522  MD$DESEL            MD_SEDES            SRC_MINERVA_MD_SEDES 
+00000746  MD$READ             MD_READ             SRC_MINERVA_MD_READ 
+00000726  MD$SECTR            MD_READ             SRC_MINERVA_MD_READ 
+0000051C  MD$SELEC            MD_SEDES            SRC_MINERVA_MD_SEDES 
+0000074C  MD$VERIN            MD_READ             SRC_MINERVA_MD_READ 
+000007F8  MD$WRITE            MD_WRITE            SRC_MINERVA_MD_WRITE 
+00004522  MD_DESEL            MD_SEDES            SRC_MINERVA_MD_SEDES 
+00004388  MD_ENDGP            MD_ENDGP            SRC_MINERVA_MD_ENDGP 
+000043BA  MD_FORMT            MD_FORMT            SRC_MINERVA_MD_FORMT 
+00004712  MD_FSECT            MD_READ             SRC_MINERVA_MD_READ 
+00004746  MD_READ             MD_READ             SRC_MINERVA_MD_READ 
+00004726  MD_SECTR            MD_READ             SRC_MINERVA_MD_READ 
+0000451C  MD_SELEC            MD_SEDES            SRC_MINERVA_MD_SEDES 
+00004584  MD_SERVE            MD_SERVE            SRC_MINERVA_MD_SERVE 
+000046D4  MD_SLAVE            MD_SLAVE            SRC_MINERVA_MD_SLAVE 
+000046D8  MD_SLAVN            MD_SLAVE            SRC_MINERVA_MD_SLAVE 
+00004792  MD_VERIL            MD_READ             SRC_MINERVA_MD_READ 
+0000474C  MD_VERIN            MD_READ             SRC_MINERVA_MD_READ 
+0000482C  MD_WBLOK            MD_WRITE            SRC_MINERVA_MD_WRITE 
+000047F8  MD_WRITE            MD_WRITE            SRC_MINERVA_MD_WRITE 
+31473938  MIN_VERS            absolute            SRC_MINERVA_ROM_VER_GERMAN 
+FFFFF882  MM$CLEAR            MM_MOVE             SRC_MINERVA_MM_MOVE 
+FFFFF85E  MM$CLRR             MM_MOVE             SRC_MINERVA_MM_MOVE 
+FFFFF866  MM$MATOR            MM_MOVE             SRC_MINERVA_MM_MOVE 
+FFFFF936  MM$MOVE             MM_MOVE             SRC_MINERVA_MM_MOVE 
+FFFFF862  MM$MRTOA            MM_MOVE             SRC_MINERVA_MM_MOVE 
+FFFFF86A  MM$MRTOR            MM_MOVE             SRC_MINERVA_MM_MOVE 
+000035E2  MM_ALBOT            MM_FSSB             SRC_MINERVA_MM_FSSB 
+0000382E  MM_ALCHP            MM_ALCHP            SRC_MINERVA_MM_ALCHP 
+00003702  MM_ALLOC            MM_ALLOC            SRC_MINERVA_MM_ALLOC 
+00003706  MM_ALLOI            MM_ALLOC            SRC_MINERVA_MM_ALLOC 
+000035C8  MM_ALTOP            MM_FSSB             SRC_MINERVA_MM_FSSB 
+000037E6  MM_ALTRN            MM_ALTRN            SRC_MINERVA_MM_ALTRN 
+00003882  MM_CLEAR            MM_MOVE             SRC_MINERVA_MM_MOVE 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  55
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+0000385E  MM_CLRR             MM_MOVE             SRC_MINERVA_MM_MOVE 
+000037EA  MM_GOTRN            MM_ALTRN            SRC_MINERVA_MM_ALTRN 
+000036B2  MM_LNKF0            MM_LNKFR            SRC_MINERVA_MM_LNKFR 
+000036B6  MM_LNKFR            MM_LNKFR            SRC_MINERVA_MM_LNKFR 
+00003676  MM_MDBAS            MM_MVJOB            SRC_MINERVA_MM_MVJOB 
+00003936  MM_MOVE             MM_MOVE             SRC_MINERVA_MM_MOVE 
+00003862  MM_MRTOA            MM_MOVE             SRC_MINERVA_MM_MOVE 
+0000386A  MM_MRTOR            MM_MOVE             SRC_MINERVA_MM_MOVE 
+00003670  MM_MUBAS            MM_MVJOB            SRC_MINERVA_MM_MVJOB 
+00003688  MM_MVJOB            MM_MVJOB            SRC_MINERVA_MM_MVJOB 
+0000362E  MM_REBOT            MM_FSSB             SRC_MINERVA_MM_FSSB 
+00003770  MM_RECHP            MM_RECHP            SRC_MINERVA_MM_RECHP 
+00003624  MM_RETOP            MM_FSSB             SRC_MINERVA_MM_FSSB 
+0000373E  MM_RETRN            MM_RETRN            SRC_MINERVA_MM_RETRN 
+00003646  MM_SCAFR            MM_SCAFR            SRC_MINERVA_MM_SCAFR 
+000037AC  MM_WHTRN            MM_ALTRN            SRC_MINERVA_MM_ALTRN 
+00001910  MT_ACLCK            MT_RCLCK            SRC_MINERVA_MT_RCLCK 
+000014E6  MT_ACTIV            MT_SUSJB            SRC_MINERVA_MT_SUSJB 
+0000162A  MT_ALBAS            MT_ALLOC            SRC_MINERVA_MT_ALLOC 
+0000156C  MT_ALCHP            MT_ALLOC            SRC_MINERVA_MT_ALLOC 
+00001546  MT_ALLOC            MT_ALLOC            SRC_MINERVA_MT_ALLOC 
+0000159E  MT_ALRES            MT_ALLOC            SRC_MINERVA_MT_ALLOC 
+00001880  MT_BAUD             MT_BAUD             SRC_MINERVA_MT_BAUD 
+000012F4  MT_CJ0              MT_CJOB             SRC_MINERVA_MT_CJOB 
+00001292  MT_CJOB             MT_CJOB             SRC_MINERVA_MT_CJOB 
+00001462  MT_CLOSE            MT_JINF             SRC_MINERVA_MT_JINF 
+00001968  MT_CNTRY            MT_CNTRY            SRC_MINERVA_MT_CNTRY 
+000016DE  MT_DMODE            MT_DMODE            SRC_MINERVA_MT_DMODE 
+0000128A  MT_EXTOP            MT_INF              SRC_MINERVA_MT_INF 
+0000149E  MT_FREE             MT_FREE             SRC_MINERVA_MT_FREE 
+0000138E  MT_FRJOB            MT_JINF             SRC_MINERVA_MT_JINF 
+00001276  MT_INF              MT_INF              SRC_MINERVA_MT_INF 
+000017D4  MT_IPCOM            MT_IPCOM            SRC_MINERVA_MT_IPCOM 
+0000131A  MT_JINF             MT_JINF             SRC_MINERVA_MT_JINF 
+0000194E  MT_LDD              MT_LXINT            SRC_MINERVA_MT_LXINT 
+0000194E  MT_LIOD             MT_LXINT            SRC_MINERVA_MT_LXINT 
+00001554  MT_LNKFR            MT_ALLOC            SRC_MINERVA_MT_ALLOC 
+0000194E  MT_LPOLL            MT_LXINT            SRC_MINERVA_MT_LXINT 
+0000194E  MT_LSCHD            MT_LXINT            SRC_MINERVA_MT_LXINT 
+0000194E  MT_LXINT            MT_LXINT            SRC_MINERVA_MT_LXINT 
+000014D6  MT_PRIOR            MT_SUSJB            SRC_MINERVA_MT_SUSJB 
+00001910  MT_RCLCK            MT_RCLCK            SRC_MINERVA_MT_RCLCK 
+0000195A  MT_RDD              MT_LXINT            SRC_MINERVA_MT_LXINT 
+000015F6  MT_REBAS            MT_ALLOC            SRC_MINERVA_MT_ALLOC 
+00001594  MT_RECHP            MT_ALLOC            SRC_MINERVA_MT_ALLOC 
+0000152A  MT_RELJB            MT_SUSJB            SRC_MINERVA_MT_SUSJB 
+000015C8  MT_RERES            MT_ALLOC            SRC_MINERVA_MT_ALLOC 
+0000195A  MT_RIOD             MT_LXINT            SRC_MINERVA_MT_LXINT 
+0000137A  MT_RJOB             MT_JINF             SRC_MINERVA_MT_JINF 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  56
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+0000195A  MT_RPOLL            MT_LXINT            SRC_MINERVA_MT_LXINT 
+0000195A  MT_RSCHD            MT_LXINT            SRC_MINERVA_MT_LXINT 
+0000195A  MT_RXINT            MT_LXINT            SRC_MINERVA_MT_LXINT 
+00001910  MT_SCLCK            MT_RCLCK            SRC_MINERVA_MT_RCLCK 
+0000151C  MT_SUSJB            MT_SUSJB            SRC_MINERVA_MT_SUSJB 
+00001204  MT_TRAP             MT_TRAP             SRC_MINERVA_MT_TRAP 
+000014C2  MT_TRAPV            MT_TRAPV            SRC_MINERVA_MT_TRAPV 
+0000497C  ND_RPAC             ND_PHYS             SRC_MINERVA_ND_PHYS 
+000048BA  ND_SPAC             ND_PHYS             SRC_MINERVA_ND_PHYS 
+0000656C  OD_CON              OD_CON              SRC_MINERVA_OD_CONX 
+00006A42  OD_NET              OD_NET              SRC_MINERVA_OD_NET 
+000063AE  OD_PIPE             OD_PIPE             SRC_MINERVA_OD_PIPE 
+0000624A  OD_SER              OD_SER              SRC_MINERVA_OD_SER 
+000039C1  PA$EXPR             PA_GRTAB            SRC_MINERVA_PA_GRTAB 
+00003BFA  PA$GRAPH            PA_GRAPH            SRC_MINERVA_PA_GRAPH 
+00003D12  PA$INI              PA_GRAPH            SRC_MINERVA_PA_GRAPH 
+00003B4E  PA$MIST             PA_MIST             SRC_MINERVA_PA_MIST 
+00003AF0  PA$STRIP            PA_STRIP            SRC_MINERVA_PA_STRIP 
+00003AE8  PA$TABLE            PA_TABLE            SRC_MINERVA_PA_TABLE 
+00007F74  PA_ALFNM            PA_CHNLT            SRC_MINERVA_PA_CHNLT 
+00007DF8  PA_CDLNO            PA_CODE             SRC_MINERVA_PA_CODE 
+00007EEE  PA_CDMON            PA_CODE             SRC_MINERVA_PA_CODE 
+00007E4C  PA_CDNAM            PA_CODE             SRC_MINERVA_PA_CODE 
+00007DB6  PA_CDNUM            PA_CODE             SRC_MINERVA_PA_CODE 
+00007F02  PA_CDOPS            PA_CODE             SRC_MINERVA_PA_CODE 
+00007EDA  PA_CDSEP            PA_CODE             SRC_MINERVA_PA_CODE 
+00007D1E  PA_CDSPC            PA_CODE             SRC_MINERVA_PA_CODE 
+00007D66  PA_CDSTR            PA_CODE             SRC_MINERVA_PA_CODE 
+00007D64  PA_CDSYV            PA_CODE             SRC_MINERVA_PA_CODE 
+00007D3E  PA_CDTXT            PA_CODE             SRC_MINERVA_PA_CODE 
+00007DB6  PA_CDVAL            PA_CODE             SRC_MINERVA_PA_CODE 
+00007FD0  PA_CHNAM            PA_CHNAM            SRC_MINERVA_PA_CHNAM 
+00007F5C  PA_CHNLT            PA_CHNLT            SRC_MINERVA_PA_CHNLT 
+00008044  PA_CHUNR            PA_CHNAM            SRC_MINERVA_PA_CHNAM 
+00007BFA  PA_GRAPH            PA_GRAPH            SRC_MINERVA_PA_GRAPH 
+00007888  PA_GRTAB            PA_GRTAB            SRC_MINERVA_PA_GRTAB 
+00007A1E  PA_KYTAB            PA_GRTAB            SRC_MINERVA_PA_GRTAB 
+00007B76  PA_KYWRD            PA_KYWRD            SRC_MINERVA_PA_KYWRD 
+00007B4E  PA_MIST             PA_MIST             SRC_MINERVA_PA_MIST 
+00007AF0  PA_STRIP            PA_STRIP            SRC_MINERVA_PA_STRIP 
+00007AE8  PA_TABLE            PA_TABLE            SRC_MINERVA_PA_TABLE 
+00007EF1  PA_TBMON            PA_CODE             SRC_MINERVA_PA_CODE 
+00007F05  PA_TBOPS            PA_CODE             SRC_MINERVA_PA_CODE 
+00007EDD  PA_TBSEP            PA_CODE             SRC_MINERVA_PA_CODE 
+00007D14  PA_TBSYM            PA_GRAPH            SRC_MINERVA_PA_GRAPH 
+00007D50  PA_TEXT             PA_CODE             SRC_MINERVA_PA_CODE 
+00007E8E  PA_TOK1             PA_CODE             SRC_MINERVA_PA_CODE 
+000041AC  PF$LISTE            PF_RELST            SRC_MINERVA_PF_RELST 
+000040B0  PF$NWLIN            PF_NWLIN            SRC_MINERVA_PF_NWLIN 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  57
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+000080B0  PF_NWLIN            PF_NWLIN            SRC_MINERVA_PF_NWLIN 
+000061D8  RI_ABEX             RI_EXEC             SRC_MINERVA_RI_EXEC 
+000061E0  RI_ABEXB            RI_EXEC             SRC_MINERVA_RI_EXEC 
+00005856  RI_ABS              RI_NABS             SRC_MINERVA_RI_NABS 
+00005D8E  RI_ACOS             RI_TRIG             SRC_MINERVA_RI_TRIG 
+00005DAC  RI_ACOT             RI_TRIG             SRC_MINERVA_RI_TRIG 
+000059C0  RI_ADD              RI_ADD              SRC_MINERVA_RI_ADD 
+00005DBA  RI_ARG              RI_TRIG             SRC_MINERVA_RI_TRIG 
+00005D98  RI_ASIN             RI_TRIG             SRC_MINERVA_RI_TRIG 
+00005DB8  RI_ATAN             RI_TRIG             SRC_MINERVA_RI_TRIG 
+00005A26  RI_CHKOV            RI_ADD              SRC_MINERVA_RI_ADD 
+00005ACA  RI_CMP              RI_ADD              SRC_MINERVA_RI_ADD 
+00005C9C  RI_COS              RI_TRIG             SRC_MINERVA_RI_TRIG 
+00005D26  RI_COT              RI_TRIG             SRC_MINERVA_RI_TRIG 
+00005962  RI_DIV              RI_MLDV             SRC_MINERVA_RI_MLDV 
+00005A22  RI_DOUBL            RI_ADD              SRC_MINERVA_RI_ADD 
+00005800  RI_DUP              RI_SWAP             SRC_MINERVA_RI_SWAP 
+00005A2E  RI_ERROV            RI_ADD              SRC_MINERVA_RI_ADD 
+000061EA  RI_EXEC             RI_EXEC             SRC_MINERVA_RI_EXEC 
+000061F8  RI_EXECB            RI_EXEC             SRC_MINERVA_RI_EXEC 
+00005EF6  RI_EXP              RI_TRIG             SRC_MINERVA_RI_TRIG 
+00005AB4  RI_FLLIN            RI_ADD              SRC_MINERVA_RI_ADD 
+00005A46  RI_FLOAT            RI_ADD              SRC_MINERVA_RI_ADD 
+00005AAE  RI_FLONG            RI_ADD              SRC_MINERVA_RI_ADD 
+00006106  RI_HALVE            RI_MISC             SRC_MINERVA_RI_MISC 
+00005C2C  RI_INT              RI_INT              SRC_MINERVA_RI_INT 
+00006142  RI_K                RI_MISC             SRC_MINERVA_RI_MISC 
+00006144  RI_K_B              RI_MISC             SRC_MINERVA_RI_MISC 
+00005C3E  RI_LINT             RI_INT              SRC_MINERVA_RI_INT 
+00005E90  RI_LN               RI_TRIG             SRC_MINERVA_RI_TRIG 
+00005E80  RI_LOG10            RI_TRIG             SRC_MINERVA_RI_TRIG 
+0000602C  RI_MOD              RI_SQRT             SRC_MINERVA_RI_SQRT 
+00005896  RI_MULT             RI_MLDV             SRC_MINERVA_RI_MLDV 
+00006132  RI_N                RI_MISC             SRC_MINERVA_RI_MISC 
+0000585C  RI_NEG              RI_NABS             SRC_MINERVA_RI_NABS 
+00005C28  RI_NINT             RI_INT              SRC_MINERVA_RI_INT 
+00005C3A  RI_NLINT            RI_INT              SRC_MINERVA_RI_INT 
+00006134  RI_N_B              RI_MISC             SRC_MINERVA_RI_MISC 
+00006116  RI_ONE              RI_MISC             SRC_MINERVA_RI_MISC 
+000057EE  RI_OVER             RI_SWAP             SRC_MINERVA_RI_SWAP 
+00005B78  RI_POWER            RI_POWER            SRC_MINERVA_RI_POWER 
+00005B4E  RI_POWFP            RI_POWER            SRC_MINERVA_RI_POWER 
+0000595E  RI_RDIV             RI_MLDV             SRC_MINERVA_RI_MLDV 
+0000595A  RI_RECIP            RI_MLDV             SRC_MINERVA_RI_MLDV 
+00005A96  RI_RENRM            RI_ADD              SRC_MINERVA_RI_ADD 
+00005812  RI_ROLL             RI_SWAP             SRC_MINERVA_RI_SWAP 
+00005C94  RI_SIN              RI_TRIG             SRC_MINERVA_RI_TRIG 
+000060AC  RI_SQRT             RI_SQRT             SRC_MINERVA_RI_SQRT 
+00005892  RI_SQUAR            RI_MLDV             SRC_MINERVA_RI_MLDV 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  58
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+0000602E  RI_SSS              RI_SQRT             SRC_MINERVA_RI_SQRT 
+000059BC  RI_SUB              RI_ADD              SRC_MINERVA_RI_ADD 
+000057CE  RI_SWAP             RI_SWAP             SRC_MINERVA_RI_SWAP 
+00005D1E  RI_TAN              RI_TRIG             SRC_MINERVA_RI_TRIG 
+00006122  RI_ZERO             RI_MISC             SRC_MINERVA_RI_MISC 
+000041BC  SB$START            SB_START            SRC_MINERVA_SB_START 
+000084EE  SB_READ             SB_UNVR             SRC_MINERVA_SB_UNVR 
+000081BC  SB_START            SB_START            SRC_MINERVA_SB_START 
+000084B0  SB_UNVR             SB_UNVR             SRC_MINERVA_SB_UNVR 
+00006D16  SD_BORDN            SD_WDEF             SRC_MINERVA_SD_WDEF 
+00006D12  SD_BORDR            SD_WDEF             SRC_MINERVA_SD_WDEF 
+00006E88  SD_CHCHK            SD_POS              SRC_MINERVA_SD_POS 
+00006C98  SD_CHENQ            SD_ENQ              SRC_MINERVA_SD_ENQ 
+00006ED8  SD_CLEAR            SD_AREA             SRC_MINERVA_SD_AREA 
+00006EDC  SD_CLRXX            SD_AREA             SRC_MINERVA_SD_AREA 
+00006D84  SD_CURE             SD_CURW             SRC_MINERVA_SD_CURW 
+00006D7A  SD_CURS             SD_CURW             SRC_MINERVA_SD_CURW 
+00006DBA  SD_CURT             SD_CURW             SRC_MINERVA_SD_CURW 
+00006EA8  SD_DONL             SD_POS              SRC_MINERVA_SD_POS 
+00006BA8  SD_ENTRY            SD_ENTRY            SRC_MINERVA_SD_ENTRY 
+00006F5A  SD_FILL             SD_FILL             SRC_MINERVA_SD_FILL 
+00006B24  SD_FRESH            SD_FRESH            SRC_MINERVA_SD_FRESH 
+00006E3C  SD_HOME             SD_POS              SRC_MINERVA_SD_POS 
+00006B78  SD_MODES            SD_FRESH            SRC_MINERVA_SD_FRESH 
+00006E16  SD_NCOL             SD_POS              SRC_MINERVA_SD_POS 
+00006EAE  SD_NEWL             SD_POS              SRC_MINERVA_SD_POS 
+00006E84  SD_NL               SD_POS              SRC_MINERVA_SD_POS 
+00006E2E  SD_NROW             SD_POS              SRC_MINERVA_SD_POS 
+00006EE8  SD_PAN              SD_AREA             SRC_MINERVA_SD_AREA 
+00006E0C  SD_PCOL             SD_POS              SRC_MINERVA_SD_POS 
+00006E60  SD_PIXP             SD_POS              SRC_MINERVA_SD_POS 
+00006E48  SD_POS              SD_POS              SRC_MINERVA_SD_POS 
+00006E22  SD_PROW             SD_POS              SRC_MINERVA_SD_POS 
+00006C88  SD_PXENQ            SD_ENQ              SRC_MINERVA_SD_ENQ 
+00006ED0  SD_RECOL            SD_AREA             SRC_MINERVA_SD_AREA 
+00006D92  SD_SCHED            SD_CURW             SRC_MINERVA_SD_CURW 
+00006EE2  SD_SCROL            SD_AREA             SRC_MINERVA_SD_AREA 
+00006E6C  SD_SETC             SD_POS              SRC_MINERVA_SD_POS 
+00006FE8  SD_SETCO            SD_SETCO            SRC_MINERVA_SD_SETCO 
+00006FF8  SD_SETFL            SD_SETAT            SRC_MINERVA_SD_SETAT 
+00006FC6  SD_SETFO            SD_SETFO            SRC_MINERVA_SD_SETFO 
+00007004  SD_SETMD            SD_SETAT            SRC_MINERVA_SD_SETAT 
+00007012  SD_SETSZ            SD_SETAT            SRC_MINERVA_SD_SETAT 
+0000700A  SD_SETUL            SD_SETAT            SRC_MINERVA_SD_SETAT 
+00006E42  SD_TAB              SD_POS              SRC_MINERVA_SD_POS 
+00006CB4  SD_WDEF             SD_WDEF             SRC_MINERVA_SD_WDEF 
+FFFFC7CE  SS$RSER             SS_ISER             SRC_MINERVA_SS_ISER 
+FFFFC78E  SS$WSER             SS_ISER             SRC_MINERVA_SS_ISER 
+00000868  SS_DLJOB            SS_RESHD            SRC_MINERVA_SS_RESHD 
+
+
+Quanta  V1.03   GST Computer Systems Limited  12:33 Tuesday   27/02/18  Page  59
+RAM8_SRC_MINERVA_ROM_GERMAN_1812_LINK
+
+Symbol table - continued
+========================
+
+Address   Symbol              Section             Module
+========================================================
+
+00000640  SS_EXT              SS_EXT              SRC_MINERVA_SS_EXT 
+000004E2  SS_INIT             SS_INIT             SRC_MINERVA_SS_INIT 
+000006A8  SS_INT2             SS_INT2             SRC_MINERVA_SS_INT2 
+000006A8  SS_INTRD            SS_INT2             SRC_MINERVA_SS_INT2 
+00000760  SS_JOBA             SS_JOB              SRC_MINERVA_SS_JOB 
+00000784  SS_JOBC             SS_JOB              SRC_MINERVA_SS_JOB 
+00000738  SS_JOBX             SS_JOB              SRC_MINERVA_SS_JOB 
+0000073C  SS_JOBY             SS_JOB              SRC_MINERVA_SS_JOB 
+000007E2  SS_JTAG             SS_UTIL             SRC_MINERVA_SS_UTIL 
+00000640  SS_LIST             SS_LIST             SRC_MINERVA_SS_LIST 
+000006EE  SS_NOER             SS_INT2             SRC_MINERVA_SS_INT2 
+00000410  SS_RAMT             SS_RAMT             SRC_MINERVA_SS_RAMT 
+0000083E  SS_RESHD            SS_RESHD            SRC_MINERVA_SS_RESHD 
+0000091C  SS_RJ0              SS_RESHD            SRC_MINERVA_SS_RESHD 
+000007CE  SS_RSER             SS_ISER             SRC_MINERVA_SS_ISER 
+000006F0  SS_RTE              SS_INT2             SRC_MINERVA_SS_INT2 
+000007E6  SS_TAG              SS_UTIL             SRC_MINERVA_SS_UTIL 
+00000812  SS_TLIST            SS_TLIST            SRC_MINERVA_SS_TLIST 
+0000078E  SS_WSER             SS_ISER             SRC_MINERVA_SS_ISER 
+0000B68C  TB_F0               TB_F0               SRC_MINERVA_TB_F0 
+0000B9F8  TB_F1               TB_F1               SRC_MINERVA_TB_F1 
+0000BF0A  TB_HEX              TB_F1               SRC_MINERVA_TB_F1 
+0000B354  TB_ITRN             TB_ITRN             SRC_MINERVA_TB_ITRN 
+0000B1AA  TB_KBENC            TB_KBENC            SRC_MINERVA_TB_KBENC_GERMAN 
+0000B3D0  TB_MSG              TB_MSG              SRC_MINERVA_TB_MSG_GERMAN 
+0000B009  TB_MULTI            TB_MULTI            SRC_MINERVA_TB_MULTI 
+0000B106  TB_MULTX            TB_MULTI            SRC_MINERVA_TB_MULTI 
+0000B37C  TB_OTRN             TB_OTRN             SRC_MINERVA_TB_OTRN 
+0000B3CC  TB_TRN              TB_TRN              SRC_MINERVA_TB_TRN 
+FFFFFE0C  UT$ISTR             UT_CSTR             SRC_MINERVA_UT_CSTR 
+00003FE0  UT_CON              UT_WINDW            SRC_MINERVA_UT_WINDW 
+00003E80  UT_CSSTR            UT_CSTR             SRC_MINERVA_UT_CSTR 
+00003E72  UT_CSTR             UT_CSTR             SRC_MINERVA_UT_CSTR 
+00003F42  UT_ERR              UT_ERR              SRC_MINERVA_UT_ERR 
+00003F38  UT_ERR0             UT_ERR              SRC_MINERVA_UT_ERR 
+00003E0C  UT_ISTR             UT_CSTR             SRC_MINERVA_UT_CSTR 
+00003F72  UT_LINK             UT_LINK             SRC_MINERVA_UT_LINK 
+00003F86  UT_MINT             UT_MESSB            SRC_MINERVA_UT_MESSB 
+00003FA6  UT_MTEXT            UT_MESSB            SRC_MINERVA_UT_MESSB 
+00003FF0  UT_SCR              UT_WINDW            SRC_MINERVA_UT_WINDW 
+00003F7A  UT_UNLNK            UT_LINK             SRC_MINERVA_UT_LINK 
+00003FD8  UT_WINDW            UT_WINDW            SRC_MINERVA_UT_WINDW 
+00004002  UT_WRDEF            UT_WINDW            SRC_MINERVA_UT_WINDW 
+00003FA8  UT_WRITE            UT_MESSB            SRC_MINERVA_UT_MESSB 
+
+****** TOTAL ERRORS    0 
+**** TOTAL WARNINGS    0 
+
